@@ -1,0 +1,5 @@
+import { RecipeCatalog } from '@/components/RecipeCatalog';
+
+export default function HomePage() {
+  return <RecipeCatalog />;
+}

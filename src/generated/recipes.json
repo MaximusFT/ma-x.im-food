@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "parovoy-omlet-s-ukropom-i-bezlaktoznym-yogurtom",
+    "slug": "parovoy-omlet-s-ukropom-i-bezlaktoznym-yogurtom",
+    "title": "Паровой омлет с укропом и безлактозным йогуртом",
+    "description": "Нежный завтрак в порционных формах, приготовленный на пару в Varoma.",
+    "category": "Завтраки",
+    "day": 1,
+    "servings": 2,
+    "portions": "2, примерно по 290–320 г вместе с йогуртом.",
+    "activeMinutes": 8,
+    "totalMinutes": 26,
+    "equipment": [
+      "чаша",
+      "Varoma",
+      "2 жаропрочные формы по 250–300 мл",
+      "лопатка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix",
+      "До 30 минут"
+    ],
+    "ingredients": [
+      {
+        "productId": "eggs",
+        "name": "Яйца",
+        "group": "Яйца",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "4 шт"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 1,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "1 г"
+      },
+      {
+        "productId": "greek-yogurt",
+        "name": "Безлактозный греческий йогурт",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 300,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "300 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 500,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "500 г"
+      }
+    ],
+    "steps": [
+      "Смазать формы оливковым маслом. Проверить, что обе формы устойчиво помещаются в нижней части Varoma и не закрывают все отверстия для пара.",
+      "Положить в сухую чашу яйца, молоко, укроп и соль. Смешивать 10 секунд / скорость 4 / прямое вращение, мерный стаканчик установлен.",
+      "Разлить смесь по двум формам. Ополоснуть чашу, налить в неё 500 г воды и закрыть крышкой без мерного стаканчика.",
+      "Поставить формы в нижнюю часть Varoma, закрыть крышкой Varoma и установить её на чашу.",
+      "Готовить 18 минут / Varoma / скорость 1 / прямое вращение. Снять крышку от себя. Центр омлета должен быть полностью схвачен; при необходимости добавить 2–3 минуты в тех же настройках.",
+      "Подать по одной форме с 150 г йогурта."
+    ],
+    "storage": "лучше есть сразу. Остывший омлет можно убрать в холодильник не позднее чем через 2 часа и использовать в течение суток; при осторожном низкогистаминовом подходе остаток предпочтительно заморозить в тот же день.",
+    "substitutions": "йогурт заменить свежим безлактозным творогом; укроп — петрушкой, если она переносится.",
+    "tolerance": "кисломолочный продукт индивидуально спорный при низкогистаминовом рационе; ориентироваться на переносимость Маши.",
+    "status": "approved",
+    "source": "day-01.md"
+  },
+  {
+    "id": "kurinye-bedra-s-kartofelem-kabachkom-i-morkovyu",
+    "slug": "kurinye-bedra-s-kartofelem-kabachkom-i-morkovyu",
+    "title": "Куриные бёдра с картофелем, кабачком и морковью",
+    "description": "Курица, картофель и мягкие овощи готовятся одновременно в Thermomix и Varoma.",
+    "category": "Обеды",
+    "day": 1,
+    "servings": 2,
+    "portions": "2, примерно по 420–450 г.",
+    "activeMinutes": 12,
+    "totalMinutes": 42,
+    "equipment": [
+      "чаша",
+      "корзинка",
+      "Varoma с поддоном",
+      "лопатка",
+      "пищевой термометр по возможности."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix"
+    ],
+    "ingredients": [
+      {
+        "productId": "chicken-thigh",
+        "name": "Филе куриного бедра",
+        "group": "Мясо и птица",
+        "includeInShopping": true,
+        "amount": 260,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "260 г"
+      },
+      {
+        "productId": "potato",
+        "name": "Картофель",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 360,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "360 г"
+      },
+      {
+        "productId": "zucchini",
+        "name": "Кабачок",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 250,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "250 г"
+      },
+      {
+        "productId": "carrot",
+        "name": "Морковь",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 150,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "150 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 700,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "700 г"
+      }
+    ],
+    "steps": [
+      "Картофель нарезать кубиками 2–3 см, промыть и положить в корзинку. Кабачок и морковь нарезать кусочками около 2 см.",
+      "Налить в чашу 700 г воды, вставить корзинку с картофелем и закрыть крышку без мерного стаканчика.",
+      "Куриное филе разложить одним слоем в нижней части Varoma, слегка посолить. Оставить между кусками проходы для пара.",
+      "Кабачок и морковь разложить на поддоне Varoma. Закрыть Varoma крышкой и установить на чашу.",
+      "Готовить 28 минут / Varoma / скорость 1 / прямое вращение.",
+      "Снять крышку от себя. Проверить самый толстый кусок курицы: безопасный ориентир — 74 °C внутри. Если температура ниже, вернуть Varoma и готовить ещё 3–5 минут в тех же настройках.",
+      "Разложить картофель, курицу и овощи по тарелкам, добавить масло и укроп."
+    ],
+    "storage": "лучше есть свежим. Остаток быстро охладить в неглубоком контейнере; при осторожном низкогистаминовом подходе заморозить в тот же день. Разогревать до горячего центра, ориентир 74 °C.",
+    "substitutions": "куриное бедро заменить филе индейки; стручковую фасоль можно использовать вместо части кабачка.",
+    "tolerance": "начать с комфортного объёма; оставшуюся часть порции не обязательно доедать сразу.",
+    "status": "approved",
+    "source": "day-01.md"
+  },
+  {
+    "id": "shokoladno-golubichnyy-tvorozhnyy-krem",
+    "slug": "shokoladno-golubichnyy-tvorozhnyy-krem",
+    "title": "Шоколадно-голубичный творожный крем",
+    "description": "Быстрый мягкий десерт с голубикой, какао и безлактозным творожным продуктом.",
+    "category": "Десерты",
+    "day": 1,
+    "servings": 2,
+    "portions": "2, примерно по 185 г.",
+    "activeMinutes": null,
+    "totalMinutes": 5,
+    "equipment": [
+      "чистая сухая чаша",
+      "лопатка",
+      "2 креманки."
+    ],
+    "methods": [
+      "Thermomix",
+      "Только Thermomix",
+      "Только чаша",
+      "До 30 минут"
+    ],
+    "ingredients": [
+      {
+        "productId": "curd-product",
+        "name": "Безлактозный творожный продукт",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 200,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "200 г"
+      },
+      {
+        "productId": "greek-yogurt",
+        "name": "Безлактозный греческий йогурт",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "blueberry",
+        "name": "Голубика",
+        "group": "Фрукты и ягоды",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "cocoa",
+        "name": "Какао",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "sugar",
+        "name": "Сахар",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г, по желанию"
+      },
+      {
+        "productId": "vanilla",
+        "name": "Ваниль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "по желанию"
+      }
+    ],
+    "steps": [
+      "Положить в чашу творожный продукт, йогурт, какао, сахар и ваниль. Смешивать 15 секунд / скорость 4 / прямое вращение, мерный стаканчик установлен.",
+      "Соскрести крем со стенок. Повторить 10 секунд / скорость 4 / прямое вращение.",
+      "Добавить 60 г голубики и перемешать лопаткой, не измельчая ягоды. Разложить по двум креманкам и украсить оставшейся голубикой."
+    ],
+    "storage": "готовить в день подачи; лучшая текстура сразу после приготовления.",
+    "substitutions": "часть йогурта заменить безлактозным молоком; какао убрать и добавить больше ванили.",
+    "tolerance": "какао — индивидуальная проба; начать с половины десерта, если есть сомнения.",
+    "status": "approved",
+    "source": "day-01.md"
+  },
+  {
+    "id": "grechka-s-indeykoy-i-struchkovoy-fasolyu",
+    "slug": "grechka-s-indeykoy-i-struchkovoy-fasolyu",
+    "title": "Гречка с индейкой и стручковой фасолью",
+    "description": "Простое основное блюдо, которое собирается за один цикл приготовления на пару.",
+    "category": "Ужины",
+    "day": 1,
+    "servings": 2,
+    "portions": "2, примерно по 330–360 г.",
+    "activeMinutes": 10,
+    "totalMinutes": 35,
+    "equipment": [
+      "чаша",
+      "корзинка",
+      "Varoma с поддоном",
+      "лопатка",
+      "пищевой термометр по возможности."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix"
+    ],
+    "ingredients": [
+      {
+        "productId": "turkey-fillet",
+        "name": "Филе индейки",
+        "group": "Мясо и птица",
+        "includeInShopping": true,
+        "amount": 220,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "220 г"
+      },
+      {
+        "productId": "buckwheat",
+        "name": "Гречка",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 100,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "100 г"
+      },
+      {
+        "productId": "green-beans",
+        "name": "Стручковая фасоль",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 200,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "200 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 700,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "700 г"
+      }
+    ],
+    "steps": [
+      "Гречку тщательно промыть и положить в корзинку. Индейку нарезать кусочками 2–3 см, фасоль при необходимости укоротить.",
+      "Налить в чашу 700 г воды, вставить корзинку и закрыть крышку без мерного стаканчика.",
+      "Индейку разложить одним слоем в нижней части Varoma, фасоль — на поддоне. Слегка посолить, закрыть Varoma и установить на чашу.",
+      "Готовить 25 минут / Varoma / скорость 1 / прямое вращение.",
+      "Проверить индейку: внутри она должна достичь 74 °C. При необходимости добавить 3–5 минут в тех же настройках.",
+      "Разложить гречку, индейку и фасоль по тарелкам, добавить масло и укроп."
+    ],
+    "storage": "предпочтительно есть свежим. Остаток быстро охладить и заморозить в тот же день; разогреть до 74 °C.",
+    "substitutions": "гречку заменить рисом; фасоль — брокколи.",
+    "tolerance": "стручковая фасоль может быть индивидуально спорной по объёму; при сомнении начать с 70–80 г готовой фасоли на порцию.",
+    "status": "approved",
+    "source": "day-01.md"
+  },
+  {
+    "id": "grechnevye-oladi-s-golubichnym-tvorozhnym-kremom",
+    "slug": "grechnevye-oladi-s-golubichnym-tvorozhnym-kremom",
+    "title": "Гречневые оладьи с голубичным творожным кремом",
+    "description": "Мягкие небольшие оладьи и свежий творожный крем с цельными ягодами.",
+    "category": "Завтраки",
+    "day": 2,
+    "servings": 2,
+    "portions": "2, по 3 небольших оладьи с кремом.",
+    "activeMinutes": 18,
+    "totalMinutes": 25,
+    "equipment": [
+      "чаша",
+      "лопатка",
+      "антипригарная сковорода или духовка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Духовка",
+      "Сковорода",
+      "До 30 минут"
+    ],
+    "ingredients": [
+      {
+        "productId": "buckwheat-flour",
+        "name": "Гречневая мука",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 70,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "70 г"
+      },
+      {
+        "productId": "eggs",
+        "name": "Яйца",
+        "group": "Яйца",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "2 шт"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 100,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "100 г"
+      },
+      {
+        "productId": "lactose-free-curd",
+        "name": "Безлактозный творог",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 140,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "140 г"
+      },
+      {
+        "productId": "blueberry",
+        "name": "Голубика",
+        "group": "Фрукты и ягоды",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "sugar",
+        "name": "Сахар",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г, по желанию"
+      },
+      {
+        "productId": "vanilla",
+        "name": "Ваниль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "по вкусу"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "щепотка"
+      }
+    ],
+    "steps": [
+      "Положить в чашу яйца, молоко, гречневую муку и соль. Смешивать 15 секунд / скорость 4 / прямое вращение, мерный стаканчик установлен. Оставить тесто на 5 минут.",
+      "Перелить тесто в миску. Положить в ополоснутую чашу творог, 50 г голубики, сахар и ваниль. Смешивать 15 секунд / скорость 4, соскрести со стенок и повторить 8 секунд / скорость 4.",
+      "Сковороду слегка смазать маслом. На слабом или среднем огне приготовить 6 небольших оладий по 2–3 минуты с каждой стороны, не создавая тёмной корочки. Либо запекать порциями на пергаменте при 180 °C около 12–14 минут, один раз перевернув.",
+      "Подать по 3 оладьи с кремом и оставшейся голубикой."
+    ],
+    "storage": "крем готовить в день подачи; оладьи можно заморозить после полного охлаждения.",
+    "substitutions": "готовую гречневую муку можно сделать из крупы — 40 секунд / скорость 10, затем дать пыли осесть.",
+    "tolerance": "начинать с тёплой, не горячей порции.",
+    "status": "approved",
+    "source": "day-02.md"
+  },
+  {
+    "id": "govyazhi-tefteli-s-kartofelnym-pyure-i-ovoschnym-sousom",
+    "slug": "govyazhi-tefteli-s-kartofelnym-pyure-i-ovoschnym-sousom",
+    "title": "Говяжьи тефтели с картофельным пюре и овощным соусом",
+    "description": "Паровые тефтели, мягкое пюре и тёплый овощной соус без сильной обжарки.",
+    "category": "Обеды",
+    "day": 2,
+    "servings": 2,
+    "portions": "2, примерно по 430–460 г.",
+    "activeMinutes": 18,
+    "totalMinutes": 50,
+    "equipment": [
+      "чаша",
+      "корзинка",
+      "Varoma с поддоном",
+      "лопатка",
+      "пищевой термометр."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix"
+    ],
+    "ingredients": [
+      {
+        "productId": "beef-mince",
+        "name": "Постный говяжий фарш",
+        "group": "Мясо и птица",
+        "includeInShopping": true,
+        "amount": 240,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "240 г"
+      },
+      {
+        "productId": "rice-flour",
+        "name": "Рисовая мука",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 100,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "100 г"
+      },
+      {
+        "productId": "potato",
+        "name": "Картофель",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 320,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "320 г"
+      },
+      {
+        "productId": "zucchini",
+        "name": "Кабачок",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 180,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "180 г"
+      },
+      {
+        "productId": "carrot",
+        "name": "Морковь",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 120,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "120 г"
+      },
+      {
+        "productId": "broccoli",
+        "name": "Брокколи",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 140,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "140 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 8,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "8 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 6,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "6 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 700,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "700 г"
+      }
+    ],
+    "steps": [
+      "Положить в чашу фарш, рисовую муку, 20 г молока, половину укропа и 1 г соли. Смешивать 20 секунд / обратное вращение / скорость 3, мерный стаканчик установлен. Сформировать 8 небольших тефтелей.",
+      "Налить в ополоснутую чашу 700 г воды. Картофель нарезать кубиками, положить в корзинку и вставить её в чашу. Закрыть крышку без мерного стаканчика.",
+      "Тефтели разложить в нижней части Varoma. Кабачок, морковь и брокколи положить на поддон. Закрыть и установить Varoma.",
+      "Готовить 28 минут / Varoma / скорость 1 / прямое вращение. Проверить центр тефтели: безопасный ориентир для говяжьего фарша — 71 °C. При необходимости добавить 3–5 минут.",
+      "Снять Varoma и корзинку. Вылить воду. Положить в чашу картофель, 80 г молока, 4 г масла и щепотку соли. Смешивать 20 секунд / скорость 3,5 / прямое вращение, мерный стаканчик установлен. Не использовать высокую скорость.",
+      "Переложить пюре. Положить в чашу приготовленные овощи, 80–100 г горячей воды, оставшееся масло и укроп. Измельчать 20 секунд / скорость 6, соскрести и при необходимости повторить 10 секунд.",
+      "Подать тефтели с пюре и овощным соусом."
+    ],
+    "storage": "предпочтительно есть свежим; остаток быстро охладить и заморозить в тот же день. Разогреть до 74 °C.",
+    "substitutions": "говядину заменить индейкой; брокколи — стручковой фасолью.",
+    "tolerance": "блюдо объёмное; комфортно начать с половины пюре и добавить его позже.",
+    "status": "approved",
+    "source": "day-02.md"
+  },
+  {
+    "id": "dorada-s-risom-brokkoli-i-ukropnym-sousom",
+    "slug": "dorada-s-risom-brokkoli-i-ukropnym-sousom",
+    "title": "Дорада с рисом, брокколи и укропным соусом",
+    "description": "Запечённая рыба с рисом, овощами на пару и тёплым укропным соусом.",
+    "category": "Ужины",
+    "day": 2,
+    "servings": 2,
+    "portions": "2.",
+    "activeMinutes": 15,
+    "totalMinutes": 40,
+    "equipment": [
+      "духовка",
+      "форма или пергамент",
+      "чаша",
+      "корзинка",
+      "Varoma",
+      "пищевой термометр."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Духовка"
+    ],
+    "ingredients": [
+      {
+        "productId": "gilthead",
+        "name": "Дорада",
+        "group": "Рыба",
+        "includeInShopping": true,
+        "amount": 600,
+        "minAmount": 500,
+        "unit": "г",
+        "quantity": "всего 500–600 г"
+      },
+      {
+        "productId": "rice",
+        "name": "Рис",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "broccoli",
+        "name": "Брокколи",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 180,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "180 г"
+      },
+      {
+        "productId": "zucchini",
+        "name": "Кабачок",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 250,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "250 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 8,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "8 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 1000,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "1000 г"
+      }
+    ],
+    "steps": [
+      "Разогреть духовку до 170 °C. Дораду обсушить, слегка посолить, положить в форму или завернуть в пергамент, оставив выход пару. Запекать 25–30 минут без сильной корочки.",
+      "Рис промыть, положить в корзинку. В чашу налить 1000 г воды, вставить корзинку и закрыть крышку без мерного стаканчика.",
+      "Брокколи и 150 г кабачка разложить в Varoma. Закрыть, установить на чашу и готовить 20 минут / Varoma / скорость 4 / прямое вращение.",
+      "Снять Varoma. Проверить рис; при необходимости готовить ещё 2–4 минуты при 100 °C / скорость 4 с мерным стаканчиком. Рыба готова при 63 °C внутри либо когда мякоть непрозрачна и легко разделяется вилкой.",
+      "Для соуса положить в чистую чашу оставшиеся 100 г кабачка, 100 г горячей воды, масло и укроп. Готовить 6 минут / 100 °C / скорость 1, мерный стаканчик установлен; затем измельчать 20 секунд / скорость 7.",
+      "Подать дораду с рисом, овощами и тёплым соусом."
+    ],
+    "storage": "рыбу лучше готовить непосредственно перед едой. Остаток быстро охладить и заморозить в тот же день.",
+    "substitutions": "дораду заменить свежей или замороженной из свежей треской/хеком; рис — картофелем.",
+    "tolerance": "свежесть и холодовая цепь рыбы важнее формального списка «разрешённых» видов.",
+    "status": "approved",
+    "source": "day-02.md"
+  },
+  {
+    "id": "vanilnyy-risovyy-puding-s-golubikoy",
+    "slug": "vanilnyy-risovyy-puding-s-golubikoy",
+    "title": "Ванильный рисовый пудинг с голубикой",
+    "description": "Тёплый сливочный пудинг с мягким рисом, ванилью и свежей голубикой.",
+    "category": "Десерты",
+    "day": 2,
+    "servings": 2,
+    "portions": "2, примерно по 220 г.",
+    "activeMinutes": 5,
+    "totalMinutes": 40,
+    "equipment": [
+      "чаша",
+      "бабочка",
+      "корзинка вместо мерного стаканчика",
+      "лопатка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Только Thermomix",
+      "Только чаша"
+    ],
+    "ingredients": [
+      {
+        "productId": "rice",
+        "name": "Рис",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 70,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "70 г"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 300,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "300 г"
+      },
+      {
+        "productId": "blueberry",
+        "name": "Голубика",
+        "group": "Фрукты и ягоды",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "sugar",
+        "name": "Сахар",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 15,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "15 г"
+      },
+      {
+        "productId": "vanilla",
+        "name": "Ваниль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "по вкусу"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "по вкусу"
+      }
+    ],
+    "steps": [
+      "Установить бабочку. Положить в чашу рис, молоко, сахар, ваниль и соль.",
+      "Вместо мерного стаканчика поставить корзинку на крышку. Готовить 30 минут / 90 °C / обратное вращение / скорость 1.",
+      "Проверить рис. Если он плотный, добавить 30 г молока и готовить ещё 5 минут / 90 °C / обратное вращение / скорость 1.",
+      "Снять бабочку, разложить пудинг по двум мискам и добавить голубику. Подавать тёплым или охладить в тот же день."
+    ],
+    "storage": "быстро охладить и хранить в холодильнике не более суток; текстура уплотняется.",
+    "substitutions": "голубику заменить небольшим количеством хорошо переносимой ягоды; сахар уменьшить по вкусу.",
+    "tolerance": "десерт можно разделить на две небольшие сладкие паузы.",
+    "status": "approved",
+    "source": "day-02.md"
+  },
+  {
+    "id": "yaichnaya-zapekanka-s-brokkoli-i-tvorozhnym-syrom",
+    "slug": "yaichnaya-zapekanka-s-brokkoli-i-tvorozhnym-syrom",
+    "title": "Яичная запеканка с брокколи и творожным сыром",
+    "description": "Мягкая запеканка с овощами на пару и свежим безлактозным сыром.",
+    "category": "Завтраки",
+    "day": 3,
+    "servings": 2,
+    "portions": "2.",
+    "activeMinutes": 12,
+    "totalMinutes": 42,
+    "equipment": [
+      "чаша",
+      "Varoma",
+      "форма 18–20 см",
+      "духовка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Духовка"
+    ],
+    "ingredients": [
+      {
+        "productId": "eggs",
+        "name": "Яйца",
+        "group": "Яйца",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "4 шт"
+      },
+      {
+        "productId": "broccoli",
+        "name": "Брокколи",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 160,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "160 г"
+      },
+      {
+        "productId": "zucchini",
+        "name": "Кабачок",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 120,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "120 г"
+      },
+      {
+        "productId": "fresh-curd-cheese",
+        "name": "Безлактозный свежий творожный сыр",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 160,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "160 г"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 60,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "60 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 1,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "1 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 500,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "500 г"
+      }
+    ],
+    "steps": [
+      "Разогреть духовку до 170 °C. Форму смазать маслом.",
+      "Налить в чашу 500 г воды. Брокколи и кабачок разложить в Varoma, закрыть и установить на чашу. Готовить 8 минут / Varoma / скорость 1.",
+      "Снять Varoma. Вылить воду, быстро ополоснуть и вытереть чашу.",
+      "Положить в чашу яйца, молоко, укроп и соль. Смешивать 10 секунд / скорость 4, мерный стаканчик установлен.",
+      "Разложить овощи в форме, добавить творожный сыр небольшими порциями, залить яичной смесью.",
+      "Запекать 20–25 минут, пока центр полностью не схватится. Ориентир для блюда из яиц — 71 °C внутри."
+    ],
+    "storage": "лучше есть тёплой сразу; остаток быстро охладить и использовать в течение суток либо заморозить.",
+    "substitutions": "брокколи заменить зелёной фасолью; творожный сыр — безлактозным творогом.",
+    "tolerance": "кисломолочный продукт оценивается по личной переносимости.",
+    "status": "approved",
+    "source": "day-03.md"
+  },
+  {
+    "id": "ruletiki-iz-indeyki-s-risom-i-morkovno-kabachkovym-sousom",
+    "slug": "ruletiki-iz-indeyki-s-risom-i-morkovno-kabachkovym-sousom",
+    "title": "Рулетики из индейки с рисом и морковно-кабачковым соусом",
+    "description": "Нежные паровые рулетики с рисом и гладким овощным соусом.",
+    "category": "Обеды",
+    "day": 3,
+    "servings": 2,
+    "portions": "2.",
+    "activeMinutes": 20,
+    "totalMinutes": 48,
+    "equipment": [
+      "чаша",
+      "корзинка",
+      "Varoma",
+      "лопатка",
+      "пищевой термометр."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix"
+    ],
+    "ingredients": [
+      {
+        "productId": "turkey-fillet",
+        "name": "Филе индейки",
+        "group": "Мясо и птица",
+        "includeInShopping": true,
+        "amount": 300,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "300 г"
+      },
+      {
+        "productId": "rice",
+        "name": "Рис",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 90,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "90 г"
+      },
+      {
+        "productId": "zucchini",
+        "name": "Кабачок",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 250,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "250 г"
+      },
+      {
+        "productId": "carrot",
+        "name": "Морковь",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 200,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "200 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 7,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "7 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 900,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "900 г"
+      }
+    ],
+    "steps": [
+      "Положить в чашу 80 г кабачка и 3 г укропа. Измельчать 4 секунды / скорость 5. Соскрести со стенок.",
+      "Ломтики индейки слегка отбить между листами пергамента. Распределить измельчённый кабачок, свернуть 4 небольших рулетика и положить швом вниз в нижнюю часть Varoma. Оставить проходы для пара.",
+      "Рис промыть и положить в корзинку. В чашу налить 900 г воды, вставить корзинку и закрыть крышку без мерного стаканчика.",
+      "Оставшиеся кабачок и морковь разложить на поддоне Varoma. Закрыть Varoma и установить на чашу.",
+      "Готовить 25 минут / Varoma / скорость 4 / прямое вращение. Проверить индейку: внутри не менее 74 °C. При необходимости добавить 3–5 минут.",
+      "Снять Varoma и корзинку. Оставить 100 г горячей воды, добавить приготовленные морковь и кабачок, масло, оставшийся укроп и щепотку соли. Измельчать 25 секунд / скорость 7, мерный стаканчик установлен.",
+      "Подать рулетики с рисом и соусом."
+    ],
+    "storage": "предпочтительно есть свежими; остаток быстро охладить и заморозить в тот же день.",
+    "substitutions": "индейку заменить куриным филе; рис — картофелем.",
+    "tolerance": "если большая порция риса кажется тяжёлой, начать с половины гарнира.",
+    "status": "approved",
+    "source": "day-03.md"
+  },
+  {
+    "id": "kneli-iz-treski-s-kartofelnym-kremom-i-zelenoy-fasolyu",
+    "slug": "kneli-iz-treski-s-kartofelnym-kremom-i-zelenoy-fasolyu",
+    "title": "Кнели из трески с картофельным кремом и зелёной фасолью",
+    "description": "Воздушные рыбные кнели, мягкий картофельный крем и фасоль на пару.",
+    "category": "Ужины",
+    "day": 3,
+    "servings": 2,
+    "portions": "2, по 3 кнели.",
+    "activeMinutes": 18,
+    "totalMinutes": 45,
+    "equipment": [
+      "чаша",
+      "корзинка",
+      "Varoma с поддоном",
+      "2 ложки",
+      "лопатка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Varoma",
+      "Только Thermomix"
+    ],
+    "ingredients": [
+      {
+        "productId": "cod-fillet",
+        "name": "Филе трески",
+        "group": "Рыба",
+        "includeInShopping": true,
+        "amount": 300,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "300 г"
+      },
+      {
+        "productId": "eggs",
+        "name": "Яйца",
+        "group": "Яйца",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "1 шт"
+      },
+      {
+        "productId": "rice-flour",
+        "name": "Рисовая мука",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 15,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "15 г"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 80,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "80 г"
+      },
+      {
+        "productId": "potato",
+        "name": "Картофель",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 320,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "320 г"
+      },
+      {
+        "productId": "green-beans",
+        "name": "Стручковая фасоль",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 200,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "200 г"
+      },
+      {
+        "productId": "olive-oil",
+        "name": "Оливковое масло",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "dill",
+        "name": "Укроп",
+        "group": "Овощи и зелень",
+        "includeInShopping": true,
+        "amount": 5,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "5 г"
+      },
+      {
+        "productId": "salt",
+        "name": "Соль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": 2,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "2 г"
+      },
+      {
+        "productId": "water",
+        "name": "Вода",
+        "group": "Не учитывать",
+        "includeInShopping": false,
+        "amount": 700,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "700 г"
+      }
+    ],
+    "steps": [
+      "Треску обсушить и нарезать кубиками. Положить в сухую чашу и измельчать 8 секунд / скорость 6, мерный стаканчик установлен.",
+      "Добавить яйцо, рисовую муку, 30 г молока, укроп и 1 г соли. Смешивать 15 секунд / скорость 4. Соскрести со стенок и повторить 5 секунд / скорость 4.",
+      "Нижнюю часть Varoma слегка смазать частью масла. Двумя влажными ложками сформировать 6 кнелей и разложить их, оставляя отверстия для пара.",
+      "Ополоснуть чашу, налить 700 г воды. Картофель нарезать кубиками, положить в корзинку и вставить в чашу. Закрыть крышку без мерного стаканчика.",
+      "Фасоль положить на поддон Varoma. Закрыть Varoma, установить на чашу и готовить 25 минут / Varoma / скорость 1.",
+      "Проверить кнель: внутри не менее 63 °C, мякоть полностью непрозрачная. При необходимости добавить 3 минуты.",
+      "Снять Varoma и корзинку, вылить воду. Положить в чашу картофель, оставшиеся 50 г молока, масло и щепотку соли. Смешивать 20 секунд / скорость 3,5. Не использовать высокую скорость.",
+      "Подать по 3 кнели с картофельным кремом и фасолью."
+    ],
+    "storage": "рыбу лучше есть сразу; остаток быстро охладить и заморозить в тот же день.",
+    "substitutions": "треску заменить хеком; фасоль — брокколи.",
+    "tolerance": "при чувствительности к фасоли уменьшить её порцию и увеличить кабачок.",
+    "status": "approved",
+    "source": "day-03.md"
+  },
+  {
+    "id": "teplyy-persik-s-vanilnym-tvorozhnym-kremom",
+    "slug": "teplyy-persik-s-vanilnym-tvorozhnym-kremom",
+    "title": "Тёплый персик с ванильным творожным кремом",
+    "description": "Небольшой тёплый десерт из запечённого персика и ванильного крема.",
+    "category": "Десерты",
+    "day": 3,
+    "servings": 2,
+    "portions": "2 небольшие порции.",
+    "activeMinutes": 7,
+    "totalMinutes": 22,
+    "equipment": [
+      "духовка",
+      "небольшая форма",
+      "чистая чаша",
+      "лопатка."
+    ],
+    "methods": [
+      "Thermomix",
+      "Духовка",
+      "До 30 минут"
+    ],
+    "ingredients": [
+      {
+        "productId": "peach",
+        "name": "Персик",
+        "group": "Фрукты и ягоды",
+        "includeInShopping": true,
+        "amount": 1,
+        "minAmount": null,
+        "unit": "шт.",
+        "quantity": "1 шт., 180–220 г"
+      },
+      {
+        "productId": "lactose-free-curd",
+        "name": "Безлактозный творог",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 160,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "160 г"
+      },
+      {
+        "productId": "lactose-free-milk",
+        "name": "Безлактозное молоко",
+        "group": "Молочные и безлактозные продукты",
+        "includeInShopping": true,
+        "amount": 20,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "20 г"
+      },
+      {
+        "productId": "sugar",
+        "name": "Сахар",
+        "group": "Крупы и сухие продукты",
+        "includeInShopping": true,
+        "amount": 10,
+        "minAmount": null,
+        "unit": "г",
+        "quantity": "10 г, по желанию"
+      },
+      {
+        "productId": "vanilla",
+        "name": "Ваниль",
+        "group": "Масла и приправы",
+        "includeInShopping": true,
+        "amount": null,
+        "minAmount": null,
+        "unit": null,
+        "quantity": "по вкусу"
+      }
+    ],
+    "steps": [
+      "Разогреть духовку до 170 °C. Персик разрезать пополам, удалить косточку и положить срезом вверх в форму.",
+      "Запекать 12–15 минут, пока мякоть не станет мягкой, но сохранит форму.",
+      "Положить в чашу творог, молоко, сахар и ваниль. Смешивать 15 секунд / скорость 4, соскрести со стенок и повторить 8 секунд / скорость 4.",
+      "Подать по половине тёплого персика с творожным кремом."
+    ],
+    "storage": "готовить непосредственно перед подачей; крем хранить охлаждённым и использовать в тот же день.",
+    "substitutions": "если персик не подходит, использовать 80 г голубики на весь рецепт.",
+    "tolerance": "персик содержит потенциально спорные углеводы; это небольшая индивидуальная проба, а не обязательный продукт.",
+    "status": "approved",
+    "source": "day-03.md"
+  }
+]
