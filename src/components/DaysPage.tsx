@@ -1,5 +1,5 @@
 import { CalendarDays, ChefHat } from 'lucide-react';
-import { recipes } from '@/data/recipes';
+import { approvedRecipes as recipes } from '@/data/recipes';
 import type { RecipeCategory } from '@/data/types';
 import { RecipeCard } from './RecipeCard';
 

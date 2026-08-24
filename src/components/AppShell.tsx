@@ -1,12 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, CalendarDays, CheckSquare2, ShoppingBasket } from 'lucide-react';
+import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { BasketProvider, useBasket } from './BasketProvider';
 
 const navigation = [
   { href: '/', label: 'Рецепты', icon: BookOpen },
+  { href: '/current-menu', label: 'Актуальное меню', icon: ClipboardList },
   { href: '/days', label: 'Дни', icon: CalendarDays },
   { href: '/basket', label: 'Корзина', icon: ShoppingBasket },
   { href: '/shopping', label: 'Покупки', icon: CheckSquare2 },
@@ -57,7 +58,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
         className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 px-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-2 backdrop-blur-xl lg:hidden"
         aria-label="Мобильная навигация"
       >
-        <div className="mx-auto grid max-w-md grid-cols-4">
+        <div className="mx-auto grid max-w-lg grid-cols-5">
           {navigation.map((item) => {
             const active = item.href === '/' ? pathname === '/' || pathname.startsWith('/recipes/') : pathname === item.href;
             const Icon = item.icon;
