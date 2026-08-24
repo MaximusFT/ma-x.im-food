@@ -12,6 +12,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
   const basketItem = basket.find((item) => item.recipeId === recipe.id);
   const [servings, setServings] = useState(basketItem?.servings ?? recipe.servings);
   const isInBasket = Boolean(basketItem);
+  const isSaved = basketItem?.servings === servings;
 
   const decreaseServings = () => setServings((current) => Math.max(1, current - 1));
   const increaseServings = () => setServings((current) => Math.min(12, current + 1));
@@ -136,14 +137,15 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             <button
               type="button"
               onClick={() => addRecipe(recipe.id, servings)}
+              disabled={isSaved}
               className={`mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl px-5 text-sm font-semibold transition ${
-                isInBasket
-                  ? 'bg-green-50 text-[#15803d] ring-1 ring-inset ring-green-200'
+                isSaved
+                  ? 'cursor-default bg-green-50 text-[#15803d] ring-1 ring-inset ring-green-200'
                   : 'bg-[#22c55e] text-white hover:bg-[#16a34a] hover:shadow-lg hover:shadow-green-500/20'
               }`}
             >
-              {isInBasket ? <Check size={19} /> : <ShoppingBasket size={19} />}
-              {isInBasket ? 'Обновить порции' : 'Добавить в корзину'}
+              {isSaved ? <Check size={19} /> : <ShoppingBasket size={19} />}
+              {isSaved ? `В корзине: ${servings} порц.` : isInBasket ? `Обновить до ${servings} порц.` : `Добавить ${servings} порц.`}
             </button>
             {isInBasket && (
               <button

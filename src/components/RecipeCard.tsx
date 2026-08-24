@@ -5,7 +5,7 @@ import { Check, ChevronRight, Clock3, ShoppingBasket } from 'lucide-react';
 import type { Recipe } from '@/data/types';
 import { useBasket } from './BasketProvider';
 
-export function RecipeCard({ recipe }: { recipe: Recipe }) {
+export function RecipeCard({ recipe, onOpen }: { recipe: Recipe; onOpen?: () => void }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
   const isSelected = basket.some((item) => item.recipeId === recipe.id);
   const usefulMethods = recipe.methods.filter((method) => method !== 'Thermomix').slice(0, 3);
@@ -22,11 +22,15 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
         )}
       </div>
 
-      <Link href={`/recipes/${recipe.slug}`} className="mt-6 block outline-none focus-visible:ring-4 focus-visible:ring-green-100">
+      {onOpen ? <button type="button" onClick={onOpen} className="mt-6 block text-left outline-none focus-visible:ring-4 focus-visible:ring-green-100">
         <h3 className="text-xl font-semibold leading-snug tracking-tight text-gray-950 transition group-hover:text-[#15803d]">
           {recipe.title}
         </h3>
-      </Link>
+      </button> : <Link href={`/recipes/${recipe.slug}`} className="mt-6 block outline-none focus-visible:ring-4 focus-visible:ring-green-100">
+        <h3 className="text-xl font-semibold leading-snug tracking-tight text-gray-950 transition group-hover:text-[#15803d]">
+          {recipe.title}
+        </h3>
+      </Link>}
       <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-600">{recipe.description}</p>
 
       <div className="mt-5 flex flex-wrap gap-2">
@@ -54,13 +58,14 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
           {isSelected ? <Check size={18} /> : <ShoppingBasket size={18} />}
           {isSelected ? 'В корзине' : 'Добавить'}
         </button>
-        <Link
-          href={`/recipes/${recipe.slug}`}
+        {onOpen ? <button
+          type="button"
+          onClick={onOpen}
           className="inline-flex size-12 shrink-0 items-center justify-center rounded-2xl border border-gray-200 text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 hover:text-gray-950"
           aria-label={`Открыть рецепт «${recipe.title}»`}
         >
           <ChevronRight size={20} />
-        </Link>
+        </button> : <Link href={`/recipes/${recipe.slug}`} className="inline-flex size-12 shrink-0 items-center justify-center rounded-2xl border border-gray-200 text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 hover:text-gray-950" aria-label={`Открыть рецепт «${recipe.title}»`}><ChevronRight size={20} /></Link>}
       </div>
     </article>
   );
