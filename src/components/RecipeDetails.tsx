@@ -33,7 +33,9 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             <span className="rounded-full bg-green-50 px-3 py-1.5 text-xs font-semibold text-[#15803d]">
               {recipe.category}
             </span>
-            <span className="rounded-full bg-gray-100 px-3 py-1.5 text-xs font-semibold text-gray-600">Одобрено</span>
+            <span className="rounded-full bg-gray-100 px-3 py-1.5 text-xs font-semibold text-gray-600">
+              {recipe.status === 'approved' ? 'Одобрено' : 'На проверке'}
+            </span>
           </div>
 
           <h1 className="mt-5 max-w-4xl text-4xl font-medium leading-tight tracking-tight text-gray-950 sm:text-5xl">
@@ -114,11 +116,12 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             </ol>
           </section>
 
-          <section className="mt-12 grid gap-4 sm:grid-cols-3">
+          <section className="mt-12 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             {[
               ['Хранение', recipe.storage],
               ['Замены', recipe.substitutions],
               ['Переносимость', recipe.tolerance],
+              ...(recipe.nutritionNote ? [['Пищевая ценность', recipe.nutritionNote]] : []),
             ].map(([title, content]) => (
               <div key={title} className="rounded-3xl border border-gray-200 bg-white p-5">
                 <h2 className="text-sm font-semibold text-gray-950">{title}</h2>

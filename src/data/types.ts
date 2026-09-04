@@ -37,6 +37,7 @@ export type Recipe = {
   storage: string;
   substitutions: string;
   tolerance: string;
+  nutritionNote?: string;
   status: 'approved' | 'testing';
   source: string;
 };

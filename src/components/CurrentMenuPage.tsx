@@ -3,7 +3,7 @@
 import { CalendarCheck2, ChevronRight, ShoppingBasket, Utensils } from 'lucide-react';
 import { useState } from 'react';
 import type { Recipe } from '@/data/types';
-import { currentMenuBonusRecipes, currentMenuDays, currentMenuMainRecipes, currentMenuRecipes } from '@/data/current-menu';
+import { currentMenuBonusRecipes, currentMenuDays, currentMenuExtraRecipes, currentMenuMainRecipes, currentMenuRecipes } from '@/data/current-menu';
 import { useBasket } from './BasketProvider';
 import { RecipeCard } from './RecipeCard';
 import { RecipeModal } from './RecipeModal';
@@ -74,6 +74,13 @@ export function CurrentMenuPage() {
           </section>
         ))}
       </div>
+
+      <section className="mt-14">
+        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Можно добавить к плану</p>
+        <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-950">Дополнительные блюда</h2>
+        <p className="mt-3 max-w-2xl leading-7 text-gray-600">Эти блюда не привязаны к конкретному дню. Добавляйте их в корзину отдельно, когда решите приготовить.</p>
+        <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{currentMenuExtraRecipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} onOpen={() => setSelectedRecipe(recipe)}/>)}</div>
+      </section>
 
       <section className="mt-14">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Отдельный лист с фото</p>
