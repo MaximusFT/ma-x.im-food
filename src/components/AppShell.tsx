@@ -7,7 +7,7 @@ import { BasketProvider, useBasket } from './BasketProvider';
 
 const navigation = [
   { href: '/', label: 'Рецепты', icon: BookOpen },
-  { href: '/current-menu', label: 'Актуальное меню', icon: ClipboardList },
+  { href: '/current-menu', label: 'Меню', icon: ClipboardList },
   { href: '/days', label: 'Дни', icon: CalendarDays },
   { href: '/basket', label: 'Корзина', icon: ShoppingBasket },
   { href: '/shopping', label: 'Покупки', icon: CheckSquare2 },

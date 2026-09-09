@@ -22,7 +22,7 @@ export function CurrentMenuPage() {
   };
 
   const addAll = () => {
-    for (const recipe of currentMenuMainRecipes) addRecipe(recipe.id, 2);
+    for (const recipe of currentMenuMainRecipes) addRecipe(recipe.id, 1);
   };
 
   return (
@@ -32,17 +32,17 @@ export function CurrentMenuPage() {
           <div className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-white px-3 py-1.5 text-sm font-semibold text-[#15803d]">
             <CalendarCheck2 size={16} /> Для Маши · 1 человек
           </div>
-          <h1 className="mt-5 text-4xl font-medium tracking-tight text-gray-950 sm:text-5xl lg:text-6xl">Актуальное меню</h1>
+          <h1 className="mt-5 text-4xl font-medium tracking-tight text-gray-950 sm:text-5xl lg:text-6xl">Меню</h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">
-            Восемь дней по присланному плану. Дни 1–2, 3–4, 5–6 и 7–8 повторяются парами, но каждый день показан отдельно.
+            Четыре уникальных дня по присланному плану — без повторяющихся карточек. В каждом дне есть завтрак / обед и ужин.
           </p>
         </div>
         <aside className="rounded-3xl bg-gray-950 p-6 text-white">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-green-400">Начало меню</p>
-          <p className="mt-2 text-2xl font-semibold">25 августа</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-green-400">План</p>
+          <p className="mt-2 text-2xl font-semibold">4 дня</p>
           <p className="mt-3 text-sm leading-6 text-gray-300">Все количества рассчитаны на одну порцию. Общие советы и таблицы замен с фото не включены как назначения.</p>
           <button type="button" onClick={addAll} className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-[#22c55e] px-4 text-sm font-semibold text-white transition hover:bg-[#16a34a]">
-            <ShoppingBasket size={18} /> Добавить все 8 дней
+            <ShoppingBasket size={18} /> Добавить все 4 дня
           </button>
         </aside>
       </section>
@@ -52,10 +52,10 @@ export function CurrentMenuPage() {
       </nav>
 
       <div className="mt-8 grid gap-5 lg:grid-cols-2">
-        {currentMenuDays.map(({ day, date, recipeIds }) => (
+        {currentMenuDays.map(({ day, recipeIds }) => (
           <section key={day} id={`current-day-${day}`} className="scroll-mt-24 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
             <header className="flex items-start justify-between gap-4">
-              <div><p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">День {day}</p><h2 className="mt-1 text-3xl font-semibold tracking-tight text-gray-950">{new Date(`${date}T12:00:00`).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' })}</h2></div>
+              <div><p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Меню</p><h2 className="mt-1 text-3xl font-semibold tracking-tight text-gray-950">День {day}</h2></div>
               <span className="inline-flex size-12 items-center justify-center rounded-2xl bg-green-50 text-[#16a34a]"><Utensils size={21}/></span>
             </header>
             <div className="mt-5 divide-y divide-gray-100 border-y border-gray-100">
@@ -85,7 +85,7 @@ export function CurrentMenuPage() {
       <section className="mt-14">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Отдельный лист с фото</p>
         <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-950">Дополнительные десерты</h2>
-        <p className="mt-3 max-w-2xl leading-7 text-gray-600">Эти рецепты пересчитаны на одного человека, но не добавляются в обязательное меню и общий список восьми дней автоматически.</p>
+        <p className="mt-3 max-w-2xl leading-7 text-gray-600">Эти рецепты пересчитаны на одного человека, но не добавляются в основное меню четырёх дней автоматически.</p>
         <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{currentMenuBonusRecipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} onOpen={() => setSelectedRecipe(recipe)}/>)}</div>
       </section>
 
