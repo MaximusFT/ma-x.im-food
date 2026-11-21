@@ -7,8 +7,10 @@ import { currentMenuBonusRecipes, currentMenuDays, currentMenuExtraRecipes, curr
 import { useBasket } from './BasketProvider';
 import { RecipeCard } from './RecipeCard';
 import { RecipeModal } from './RecipeModal';
+import { recipes } from '@/data/recipes';
 
 const byId = new Map(currentMenuRecipes.map((recipe) => [recipe.id, recipe]));
+const extraRecipes = [...currentMenuExtraRecipes, ...recipes.filter((recipe) => recipe.collection === 'home')];
 
 export function CurrentMenuPage() {
   const { basket, addRecipe } = useBasket();
@@ -75,11 +77,11 @@ export function CurrentMenuPage() {
         ))}
       </div>
 
-      <section className="mt-14">
+      <section id="additional-dishes" className="mt-14 scroll-mt-24">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Можно добавить к плану</p>
         <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-950">Дополнительные блюда</h2>
         <p className="mt-3 max-w-2xl leading-7 text-gray-600">Эти блюда не привязаны к конкретному дню. Добавляйте их в корзину отдельно, когда решите приготовить.</p>
-        <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{currentMenuExtraRecipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} onOpen={() => setSelectedRecipe(recipe)}/>)}</div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{extraRecipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} onOpen={() => setSelectedRecipe(recipe)}/>)}</div>
       </section>
 
       <section className="mt-14">

@@ -33,7 +33,8 @@ export function RecipeCard({ recipe, onOpen }: { recipe: Recipe; onOpen?: () => 
       </Link>}
       <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-600">{recipe.description}</p>
       {recipe.nutrition && <p className="mt-3 text-sm font-semibold text-[#15803d]">≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · {recipe.category === 'Хлеб' ? 'на половину буханки' : 'на человека'}</p>}
-      {recipe.collection && <p className="mt-2 text-sm text-gray-500">На двоих · пробный рецепт</p>}
+      {recipe.collection === 'fodmap' && <p className="mt-2 text-sm text-gray-500">На двоих · пробный рецепт</p>}
+      {recipe.collection === 'home' && <p className="mt-2 text-sm text-gray-500">{recipe.portions}</p>}
 
       <div className="mt-5 flex flex-wrap gap-2">
         {usefulMethods.length > 0 ? (

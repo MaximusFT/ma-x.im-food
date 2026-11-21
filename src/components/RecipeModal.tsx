@@ -52,6 +52,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
             </div>
             <h1 id="recipe-modal-title" className="mt-5 text-3xl font-medium leading-tight tracking-tight text-gray-950 sm:text-5xl">{recipe.title}</h1>
             <p className="mt-4 max-w-3xl text-base leading-7 text-gray-600 sm:text-lg">{recipe.description}</p>
+            {!recipe.nutrition && recipe.batchNote && <p className="mt-5 rounded-2xl bg-gray-50 p-5 text-sm leading-6 text-gray-700">{recipe.batchNote}</p>}
             {recipe.nutrition && <div className="mt-5 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
               <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
               <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
@@ -76,7 +77,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
               <ul className="divide-y divide-gray-100">
                 {recipe.ingredients.map((item, index) => <li key={`${item.productId}-${index}`} className="flex items-start justify-between gap-5 py-4"><span className="text-gray-800">{item.name}</span><strong className="shrink-0 text-gray-950">{formatIngredientQuantity(item, servings, recipe.servings)}</strong></li>)}
               </ul>
-              {recipe.collection && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются; режимы указаны для базовых 2 порций. Больший объём готовьте партиями. Не превышайте MAX 2,2 л. Одно яйцо ≈ 50 г без скорлупы; дробное количество можно отмерить после взбивания.</p>}
+              {recipe.collection === 'fodmap' && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются; режимы указаны для базовых 2 порций. Больший объём готовьте партиями. Не превышайте MAX 2,2 л. Одно яйцо ≈ 50 г без скорлупы; дробное количество можно отмерить после взбивания.</p>}
             </section>
 
             <section className="mt-10">

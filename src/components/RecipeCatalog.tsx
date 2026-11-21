@@ -28,7 +28,7 @@ type ProductFilterOption = {
   featured: boolean;
 };
 
-const categories: CategoryFilter[] = ['Все', 'Завтраки', 'Обеды', 'Ужины', 'Перекусы', 'Десерты', 'Соусы', 'Хлеб'];
+const categories: CategoryFilter[] = ['Все', 'Завтраки', 'Обеды', 'Ужины', 'Перекусы', 'Десерты', 'Соусы', 'Хлеб', 'Закуски', 'Напитки'];
 const methodOptions: CookingMethod[] = [
   'Только чаша',
   'Только Thermomix',
@@ -36,6 +36,8 @@ const methodOptions: CookingMethod[] = [
   'Varoma',
   'Духовка',
   'Сковорода',
+  'Плита',
+  'Без нагрева',
 ];
 
 const featuredProductFilters: Array<Omit<ProductFilterOption, 'count' | 'featured'>> = [

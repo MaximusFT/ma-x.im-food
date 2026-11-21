@@ -20,11 +20,11 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
   return (
     <div className="mx-auto max-w-7xl px-5 py-8 lg:px-8 lg:py-14">
       <Link
-        href={recipe.collection ? '/fodmap' : '/'}
+        href={recipe.collection === 'fodmap' ? '/fodmap' : recipe.collection === 'home' ? '/current-menu#additional-dishes' : '/'}
         className="inline-flex min-h-11 items-center gap-2 rounded-xl text-sm font-semibold text-gray-600 transition hover:text-gray-950"
       >
         <ArrowLeft size={18} />
-        {recipe.collection ? 'Раздел FODMAP' : 'Все рецепты'}
+        {recipe.collection === 'fodmap' ? 'Раздел FODMAP' : recipe.collection === 'home' ? 'Дополнительные блюда' : 'Все рецепты'}
       </Link>
 
       <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1.45fr)_minmax(21rem,0.7fr)] lg:gap-14">
@@ -40,6 +40,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             {recipe.title}
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-gray-600">{recipe.description}</p>
+          {!recipe.nutrition && recipe.batchNote && <p className="mt-5 rounded-2xl bg-gray-50 p-5 text-sm leading-6 text-gray-700">{recipe.batchNote}</p>}
           {recipe.nutrition && <div className="mt-6 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
             <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
             <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
@@ -102,7 +103,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
                 </li>
               ))}
             </ul>
-            {recipe.collection && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются, режимы приготовления — для базовых 2 порций. Больший объём готовьте партиями; не превышайте отметку MAX 2,2 л. Яйца в штуках при необходимости взбейте и отмерьте по массе: 1 яйцо ≈ 50 г без скорлупы.</p>}
+            {recipe.collection === 'fodmap' && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются, режимы приготовления — для базовых 2 порций. Больший объём готовьте партиями; не превышайте отметку MAX 2,2 л. Яйца в штуках при необходимости взбейте и отмерьте по массе: 1 яйцо ≈ 50 г без скорлупы.</p>}
           </section>
 
           <section className="mt-12">

@@ -1,9 +1,11 @@
-export type RecipeCategory = 'Завтраки' | 'Обеды' | 'Ужины' | 'Десерты' | 'Перекусы' | 'Соусы' | 'Хлеб';
+export type RecipeCategory = 'Завтраки' | 'Обеды' | 'Ужины' | 'Десерты' | 'Перекусы' | 'Соусы' | 'Хлеб' | 'Закуски' | 'Напитки';
 export type CookingMethod =
   | 'Thermomix'
   | 'Varoma'
   | 'Духовка'
   | 'Сковорода'
+  | 'Плита'
+  | 'Без нагрева'
   | 'Только Thermomix'
   | 'Только чаша'
   | 'До 30 минут';
@@ -40,7 +42,7 @@ export type Recipe = {
   nutritionNote?: string;
   status: 'approved' | 'testing';
   source: string;
-  collection?: 'fodmap';
+  collection?: 'fodmap' | 'home';
   menu?: 'document' | 'variety' | 'extras';
   meal?: string;
   nutrition?: { kcal: number; protein: number; fat: number; carbs: number };

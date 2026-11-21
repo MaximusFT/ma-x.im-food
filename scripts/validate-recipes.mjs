@@ -24,8 +24,8 @@ for (const recipe of recipes) {
   if (slugs.has(recipe.slug)) errors.push(`Повторяется slug: ${recipe.slug}`);
   slugs.add(recipe.slug);
   if (!recipe.title || !recipe.description) errors.push(`Нет названия или описания: ${recipe.slug}`);
-  if (!Number.isInteger(recipe.day) || (recipe.menu === 'extras' ? recipe.day !== 0 : recipe.day < 1)) errors.push(`Не распознан день: ${recipe.title}`);
-  if (!['Завтраки', 'Обеды', 'Ужины', 'Десерты', 'Перекусы', 'Соусы', 'Хлеб'].includes(recipe.category)) errors.push(`Некорректная категория: ${recipe.title}`);
+  if (!Number.isInteger(recipe.day) || (recipe.menu === 'extras' || recipe.collection === 'home' ? recipe.day !== 0 : recipe.day < 1)) errors.push(`Не распознан день: ${recipe.title}`);
+  if (!['Завтраки', 'Обеды', 'Ужины', 'Десерты', 'Перекусы', 'Соусы', 'Хлеб', 'Закуски', 'Напитки'].includes(recipe.category)) errors.push(`Некорректная категория: ${recipe.title}`);
   if (!Number.isInteger(recipe.servings) || recipe.servings < 1) errors.push(`Некорректные порции: ${recipe.title}`);
   if (!Number.isFinite(recipe.totalMinutes) || recipe.totalMinutes < 1) errors.push(`Не распознано общее время: ${recipe.title}`);
   if (recipe.activeMinutes !== null && recipe.activeMinutes > recipe.totalMinutes) errors.push(`Активное время больше общего: ${recipe.title}`);
