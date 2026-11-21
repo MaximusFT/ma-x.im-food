@@ -1,0 +1,7874 @@
+[
+  {
+    "id": "pdf-001",
+    "name": "Абрикос",
+    "group": "High",
+    "safeDose": "16 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "70 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 1
+    }
+  },
+  {
+    "id": "pdf-002",
+    "name": "Абрикос консервированный",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "230 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 2
+    }
+  },
+  {
+    "id": "pdf-003",
+    "name": "Авокадо",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "80 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 3
+    }
+  },
+  {
+    "id": "pdf-004",
+    "name": "Агар-агар",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 4
+    }
+  },
+  {
+    "id": "pdf-005",
+    "name": "Амарант воздушный",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 5
+    }
+  },
+  {
+    "id": "pdf-006",
+    "name": "Амарантовая мука",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 6
+    }
+  },
+  {
+    "id": "pdf-007",
+    "name": "Ананас",
+    "group": "Low",
+    "safeDose": "140 гр.",
+    "mediumDose": "200 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 7
+    }
+  },
+  {
+    "id": "pdf-008",
+    "name": "Ананас, консервированный в сиропе",
+    "group": "High",
+    "safeDose": "65 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "107 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 8
+    }
+  },
+  {
+    "id": "pdf-009",
+    "name": "Ананас сушёный",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 9
+    }
+  },
+  {
+    "id": "pdf-010",
+    "name": "Анис звёздчатый/бадьян",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 10
+    }
+  },
+  {
+    "id": "pdf-011",
+    "name": "Апельсин",
+    "group": "Low",
+    "safeDose": "130 гр.",
+    "mediumDose": "155 гр.",
+    "highDose": "230 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 11
+    }
+  },
+  {
+    "id": "pdf-012",
+    "name": "Апельсиновый джем",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 12
+    }
+  },
+  {
+    "id": "pdf-013",
+    "name": "Апельсиновый сок",
+    "group": "High",
+    "safeDose": "70 гр.",
+    "mediumDose": "95 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 13
+    }
+  },
+  {
+    "id": "pdf-014",
+    "name": "Арахис",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "56 гр.",
+    "highDose": "130 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 14
+    }
+  },
+  {
+    "id": "pdf-015",
+    "name": "Арахисовая паста",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "110 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 15
+    }
+  },
+  {
+    "id": "pdf-016",
+    "name": "Арбуз",
+    "group": "High",
+    "safeDose": "15 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 16
+    }
+  },
+  {
+    "id": "pdf-017",
+    "name": "Артишок",
+    "group": "High",
+    "safeDose": "17 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 17
+    }
+  },
+  {
+    "id": "pdf-018",
+    "name": "Артишок, маринованный в масле",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 18
+    }
+  },
+  {
+    "id": "pdf-019",
+    "name": "Базилик свежий",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 19
+    }
+  },
+  {
+    "id": "pdf-020",
+    "name": "Баклажан",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "182 гр.",
+    "highDose": "260 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 20
+    }
+  },
+  {
+    "id": "pdf-021",
+    "name": "Бальзамический уксус",
+    "group": "Medium",
+    "safeDose": "21 гр.",
+    "mediumDose": "42 гр.",
+    "highDose": "63 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 21
+    }
+  },
+  {
+    "id": "pdf-022",
+    "name": "Банан неспелый",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "110 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 22
+    }
+  },
+  {
+    "id": "pdf-023",
+    "name": "Банан спелый",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 23
+    }
+  },
+  {
+    "id": "pdf-024",
+    "name": "Банан сушёный",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "34 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 24
+    }
+  },
+  {
+    "id": "pdf-025",
+    "name": "Банановая мука (из неспелого банана)",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 25
+    }
+  },
+  {
+    "id": "pdf-026",
+    "name": "Баранина",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 26
+    }
+  },
+  {
+    "id": "pdf-027",
+    "name": "Батончик (мюсли)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 27
+    }
+  },
+  {
+    "id": "pdf-028",
+    "name": "Безглютеновая мука",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "145 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 28
+    }
+  },
+  {
+    "id": "pdf-029",
+    "name": "Безглютеновая паста",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "145 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 29
+    }
+  },
+  {
+    "id": "pdf-030",
+    "name": "Безглютеновый хлеб",
+    "group": "Low",
+    "safeDose": "52 гр.",
+    "mediumDose": "78 гр.",
+    "highDose": "91 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 30
+    }
+  },
+  {
+    "id": "pdf-031",
+    "name": "Бекон",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 31
+    }
+  },
+  {
+    "id": "pdf-032",
+    "name": "Белое вино",
+    "group": "Low",
+    "safeDose": "150 мл",
+    "mediumDose": "250 мл",
+    "highDose": "300 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 32
+    }
+  },
+  {
+    "id": "pdf-033",
+    "name": "Белокочанная капуста",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "145 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 33
+    }
+  },
+  {
+    "id": "pdf-034",
+    "name": "Белый винный уксус",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 34
+    }
+  },
+  {
+    "id": "pdf-035",
+    "name": "Белый гриб (сушёный)",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 35
+    }
+  },
+  {
+    "id": "pdf-036",
+    "name": "Белый лук",
+    "group": "High",
+    "safeDose": "нет",
+    "mediumDose": "12 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 36
+    }
+  },
+  {
+    "id": "pdf-037",
+    "name": "Белый рис",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 37
+    }
+  },
+  {
+    "id": "pdf-038",
+    "name": "Белый сахар",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 38
+    }
+  },
+  {
+    "id": "pdf-039",
+    "name": "Белый хлеб, пшеничный",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "52 гр.",
+    "highDose": "69 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 39
+    }
+  },
+  {
+    "id": "pdf-040",
+    "name": "Бобы адзуки, варёные",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "40 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 40
+    }
+  },
+  {
+    "id": "pdf-041",
+    "name": "Бобы мунг/маш, варёные",
+    "group": "High",
+    "safeDose": "49 гр.",
+    "mediumDose": "58 гр.",
+    "highDose": "73 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 41
+    }
+  },
+  {
+    "id": "pdf-042",
+    "name": "Бойзенова ягода",
+    "group": "Medium",
+    "safeDose": "12 гр.",
+    "mediumDose": "24 гр.",
+    "highDose": "36 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 42
+    }
+  },
+  {
+    "id": "pdf-043",
+    "name": "Болгарский перец, жёлтый",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "47 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 43
+    }
+  },
+  {
+    "id": "pdf-044",
+    "name": "Болгарский перец, зелёный",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "310 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 44
+    }
+  },
+  {
+    "id": "pdf-045",
+    "name": "Болгарский перец, красный",
+    "group": "High",
+    "safeDose": "43 гр.",
+    "mediumDose": "57 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 45
+    }
+  },
+  {
+    "id": "pdf-046",
+    "name": "Болгарский перец, оранжевый",
+    "group": "High",
+    "safeDose": "38 гр.",
+    "mediumDose": "51 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 46
+    }
+  },
+  {
+    "id": "pdf-047",
+    "name": "Бородинский хлеб",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 47
+    }
+  },
+  {
+    "id": "pdf-048",
+    "name": "Бразильский орех",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "52 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 48
+    }
+  },
+  {
+    "id": "pdf-049",
+    "name": "Бренди",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "30 гр.",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 49
+    }
+  },
+  {
+    "id": "pdf-050",
+    "name": "Брокколи (соцветие)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "240 гр.",
+    "highDose": "270 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 1,
+      "row": 50
+    }
+  },
+  {
+    "id": "pdf-051",
+    "name": "Брокколи (стебли)",
+    "group": "Low",
+    "safeDose": "45 гр.",
+    "mediumDose": "50 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 51
+    }
+  },
+  {
+    "id": "pdf-052",
+    "name": "Брокколини (соцветия)",
+    "group": "High",
+    "safeDose": "58 гр.",
+    "mediumDose": "87 гр.",
+    "highDose": "90 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 52
+    }
+  },
+  {
+    "id": "pdf-053",
+    "name": "Брокколини (стебли)",
+    "group": "Low",
+    "safeDose": "90 гр.",
+    "mediumDose": "320 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 53
+    }
+  },
+  {
+    "id": "pdf-054",
+    "name": "Брюква",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "85 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 54
+    }
+  },
+  {
+    "id": "pdf-055",
+    "name": "Брюссельская капуста",
+    "group": "High",
+    "safeDose": "50 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 55
+    }
+  },
+  {
+    "id": "pdf-056",
+    "name": "Булгур",
+    "group": "High",
+    "safeDose": "44 гр.",
+    "mediumDose": "66 гр.",
+    "highDose": "88 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 56
+    }
+  },
+  {
+    "id": "pdf-057",
+    "name": "Бурый рис",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 57
+    }
+  },
+  {
+    "id": "pdf-058",
+    "name": "Быстрорастворимый кофе",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 58
+    }
+  },
+  {
+    "id": "pdf-059",
+    "name": "Виноград белый, без косточек",
+    "group": "High",
+    "safeDose": "32 гр.",
+    "mediumDose": "48 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 59
+    }
+  },
+  {
+    "id": "pdf-060",
+    "name": "Виноград красный, без косточек",
+    "group": "High",
+    "safeDose": "28 гр.",
+    "mediumDose": "42 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 60
+    }
+  },
+  {
+    "id": "pdf-061",
+    "name": "Виски",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "30 гр.",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 61
+    }
+  },
+  {
+    "id": "pdf-062",
+    "name": "Витлуф",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "220 гр.",
+    "highDose": "300 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 62
+    }
+  },
+  {
+    "id": "pdf-063",
+    "name": "Вишня/черешня",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 63
+    }
+  },
+  {
+    "id": "pdf-064",
+    "name": "Водка",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "30 гр.",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 64
+    }
+  },
+  {
+    "id": "pdf-065",
+    "name": "Водоросли вакаме, сушёные",
+    "group": "Medium",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 65
+    }
+  },
+  {
+    "id": "pdf-066",
+    "name": "Воздушный рис",
+    "group": "Low",
+    "safeDose": "15 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 66
+    }
+  },
+  {
+    "id": "pdf-067",
+    "name": "Вустерширский соус",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "105 гр.",
+    "highDose": "133 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 67
+    }
+  },
+  {
+    "id": "pdf-068",
+    "name": "Говядина",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 68
+    }
+  },
+  {
+    "id": "pdf-069",
+    "name": "Голубика",
+    "group": "High",
+    "safeDose": "40 гр.",
+    "mediumDose": "50 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 69
+    }
+  },
+  {
+    "id": "pdf-070",
+    "name": "Горох замороженный",
+    "group": "High",
+    "safeDose": "15 гр.",
+    "mediumDose": "18 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 70
+    }
+  },
+  {
+    "id": "pdf-071",
+    "name": "Гороховая крупа",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 71
+    }
+  },
+  {
+    "id": "pdf-072",
+    "name": "Горошек консервированный",
+    "group": "High",
+    "safeDose": "45 гр.",
+    "mediumDose": "55 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 72
+    }
+  },
+  {
+    "id": "pdf-073",
+    "name": "Горчица",
+    "group": "Low",
+    "safeDose": "11 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "80 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 73
+    }
+  },
+  {
+    "id": "pdf-074",
+    "name": "Гранат",
+    "group": "High",
+    "safeDose": "45 гр.",
+    "mediumDose": "55 гр.",
+    "highDose": "87 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 74
+    }
+  },
+  {
+    "id": "pdf-075",
+    "name": "Гранола",
+    "group": "High",
+    "safeDose": "нет",
+    "mediumDose": "26 гр.",
+    "highDose": "52 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 75
+    }
+  },
+  {
+    "id": "pdf-076",
+    "name": "Грейпфрут очищенный",
+    "group": "High",
+    "safeDose": "80 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "207 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 76
+    }
+  },
+  {
+    "id": "pdf-077",
+    "name": "Грецкий орех",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "110 гр.",
+    "highDose": "135 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 77
+    }
+  },
+  {
+    "id": "pdf-078",
+    "name": "Гречневая крупа, приготовленная",
+    "group": "Low",
+    "safeDose": "120 гр.",
+    "mediumDose": "360 гр.",
+    "highDose": "420 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 78
+    }
+  },
+  {
+    "id": "pdf-079",
+    "name": "Гречневая мука",
+    "group": "Low",
+    "safeDose": "120 гр.",
+    "mediumDose": "360 гр.",
+    "highDose": "420 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 79
+    }
+  },
+  {
+    "id": "pdf-080",
+    "name": "Гречневые хлопья",
+    "group": "Low",
+    "safeDose": "120 гр.",
+    "mediumDose": "360 гр.",
+    "highDose": "420 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 80
+    }
+  },
+  {
+    "id": "pdf-081",
+    "name": "Гриб Портобелло",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 81
+    }
+  },
+  {
+    "id": "pdf-082",
+    "name": "Гриб вешенка",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "1000 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 82
+    }
+  },
+  {
+    "id": "pdf-083",
+    "name": "Гриб маслёнок",
+    "group": "High",
+    "safeDose": "40 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 83
+    }
+  },
+  {
+    "id": "pdf-084",
+    "name": "Гриб шиитаке",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 84
+    }
+  },
+  {
+    "id": "pdf-085",
+    "name": "Грибы шиитаке, сушёные",
+    "group": "High",
+    "safeDose": "7 гр.",
+    "mediumDose": "12 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 85
+    }
+  },
+  {
+    "id": "pdf-086",
+    "name": "Грибы еноки",
+    "group": "High",
+    "safeDose": "нет",
+    "mediumDose": "12 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 86
+    }
+  },
+  {
+    "id": "pdf-087",
+    "name": "Груша азиатская",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "190 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 87
+    }
+  },
+  {
+    "id": "pdf-088",
+    "name": "Груша пакхам",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "190 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 88
+    }
+  },
+  {
+    "id": "pdf-089",
+    "name": "Гуава неспелая",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "90 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 89
+    }
+  },
+  {
+    "id": "pdf-090",
+    "name": "Гуава спелая",
+    "group": "Low",
+    "safeDose": "180 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 90
+    }
+  },
+  {
+    "id": "pdf-091",
+    "name": "Дайкон",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "280 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 91
+    }
+  },
+  {
+    "id": "pdf-092",
+    "name": "Десертное вино",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 92
+    }
+  },
+  {
+    "id": "pdf-093",
+    "name": "Джем из голубики",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 93
+    }
+  },
+  {
+    "id": "pdf-094",
+    "name": "Джин",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "30 гр.",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 94
+    }
+  },
+  {
+    "id": "pdf-095",
+    "name": "Дуриан",
+    "group": "Low",
+    "safeDose": "150 гр.",
+    "mediumDose": "300 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 95
+    }
+  },
+  {
+    "id": "pdf-096",
+    "name": "Душистый перец",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 96
+    }
+  },
+  {
+    "id": "pdf-097",
+    "name": "Дыня",
+    "group": "High",
+    "safeDose": "90 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 97
+    }
+  },
+  {
+    "id": "pdf-098",
+    "name": "Дыня канталупа",
+    "group": "Medium",
+    "safeDose": "120 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "160 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 98
+    }
+  },
+  {
+    "id": "pdf-099",
+    "name": "Ежевика",
+    "group": "High",
+    "safeDose": "4 гр.",
+    "mediumDose": "7 гр.",
+    "highDose": "160 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 99
+    }
+  },
+  {
+    "id": "pdf-100",
+    "name": "Заварной крем",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 100
+    }
+  },
+  {
+    "id": "pdf-101",
+    "name": "Запеченые бобы",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "91 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 101
+    }
+  },
+  {
+    "id": "pdf-102",
+    "name": "Зелёный лук (перья)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "265 гр.",
+    "highDose": "330 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 2,
+      "row": 102
+    }
+  },
+  {
+    "id": "pdf-103",
+    "name": "Зеленый перец халапеньо, сырой",
+    "group": "High",
+    "safeDose": "29 гр.",
+    "mediumDose": "39 гр.",
+    "highDose": "41 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 103
+    }
+  },
+  {
+    "id": "pdf-104",
+    "name": "Зелёный перец чили, сырой",
+    "group": "Low",
+    "safeDose": "61 гр.",
+    "mediumDose": "230 гр.",
+    "highDose": "279 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 104
+    }
+  },
+  {
+    "id": "pdf-105",
+    "name": "Зелёный перец чили, консервированный",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "177 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 105
+    }
+  },
+  {
+    "id": "pdf-106",
+    "name": "Зелёный чай",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 106
+    }
+  },
+  {
+    "id": "pdf-107",
+    "name": "Зерновой батончик",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 107
+    }
+  },
+  {
+    "id": "pdf-108",
+    "name": "Игристое вино",
+    "group": "Low",
+    "safeDose": "150 мл",
+    "mediumDose": "250 мл",
+    "highDose": "300 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 108
+    }
+  },
+  {
+    "id": "pdf-109",
+    "name": "Изюм",
+    "group": "High",
+    "safeDose": "13 гр.",
+    "mediumDose": "18 гр.",
+    "highDose": "26 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 109
+    }
+  },
+  {
+    "id": "pdf-110",
+    "name": "Индейка",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 110
+    }
+  },
+  {
+    "id": "pdf-111",
+    "name": "Инжир",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "8 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 111
+    }
+  },
+  {
+    "id": "pdf-112",
+    "name": "Инжир сушёный",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 112
+    }
+  },
+  {
+    "id": "pdf-113",
+    "name": "Искусственная курица (соевая)",
+    "group": "High",
+    "safeDose": "50 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 113
+    }
+  },
+  {
+    "id": "pdf-114",
+    "name": "Йогурт из козьего молока",
+    "group": "High",
+    "safeDose": "33 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 114
+    }
+  },
+  {
+    "id": "pdf-115",
+    "name": "Йогурт безлактозный",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 115
+    }
+  },
+  {
+    "id": "pdf-116",
+    "name": "Йогурт греческий",
+    "group": "High",
+    "safeDose": "23 гр.",
+    "mediumDose": "93 гр.",
+    "highDose": "170 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 116
+    }
+  },
+  {
+    "id": "pdf-117",
+    "name": "Йогурт кокосовый",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 117
+    }
+  },
+  {
+    "id": "pdf-118",
+    "name": "Йогурт натуральный",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "170 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 118
+    }
+  },
+  {
+    "id": "pdf-119",
+    "name": "Кабачок",
+    "group": "Medium",
+    "safeDose": "65 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 119
+    }
+  },
+  {
+    "id": "pdf-120",
+    "name": "Какао-порошок",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 120
+    }
+  },
+  {
+    "id": "pdf-121",
+    "name": "Каперсы",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 121
+    }
+  },
+  {
+    "id": "pdf-122",
+    "name": "Капуста квашеная",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 122
+    }
+  },
+  {
+    "id": "pdf-123",
+    "name": "Капуста красная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "180 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 123
+    }
+  },
+  {
+    "id": "pdf-124",
+    "name": "Капуста краснокочанная, квашеная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "140 гр.",
+    "highDose": "170 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 124
+    }
+  },
+  {
+    "id": "pdf-125",
+    "name": "Карамбола",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 125
+    }
+  },
+  {
+    "id": "pdf-126",
+    "name": "Кардамон",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 126
+    }
+  },
+  {
+    "id": "pdf-127",
+    "name": "Карри",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 127
+    }
+  },
+  {
+    "id": "pdf-128",
+    "name": "Картофель красный, неочищенный",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "1000 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 128
+    }
+  },
+  {
+    "id": "pdf-129",
+    "name": "Картофель неочищенный",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "1000 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 129
+    }
+  },
+  {
+    "id": "pdf-130",
+    "name": "Картофель (соломка)",
+    "group": "Low",
+    "safeDose": "22 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 130
+    }
+  },
+  {
+    "id": "pdf-131",
+    "name": "Картофельные чипсы",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "40 гр.",
+    "highDose": "60 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 131
+    }
+  },
+  {
+    "id": "pdf-132",
+    "name": "Кассава",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 132
+    }
+  },
+  {
+    "id": "pdf-133",
+    "name": "Каштан водяной",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "335 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 133
+    }
+  },
+  {
+    "id": "pdf-134",
+    "name": "Каштановая мука",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 134
+    }
+  },
+  {
+    "id": "pdf-135",
+    "name": "Каштаны варёные",
+    "group": "Low",
+    "safeDose": "168 гр.",
+    "mediumDose": "213 гр.",
+    "highDose": "295 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 135
+    }
+  },
+  {
+    "id": "pdf-136",
+    "name": "Кедровый орех",
+    "group": "Low",
+    "safeDose": "14 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 136
+    }
+  },
+  {
+    "id": "pdf-137",
+    "name": "Кетчуп",
+    "group": "High",
+    "safeDose": "13 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "26 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 137
+    }
+  },
+  {
+    "id": "pdf-138",
+    "name": "Кефир",
+    "group": "High",
+    "safeDose": "23 гр.",
+    "mediumDose": "64 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 138
+    }
+  },
+  {
+    "id": "pdf-139",
+    "name": "Кешью",
+    "group": "High",
+    "safeDose": "7 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 139
+    }
+  },
+  {
+    "id": "pdf-140",
+    "name": "Киви голд",
+    "group": "Low",
+    "safeDose": "150 гр.",
+    "mediumDose": "195 гр.",
+    "highDose": "230 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 140
+    }
+  },
+  {
+    "id": "pdf-141",
+    "name": "Киви зелёный",
+    "group": "Low",
+    "safeDose": "150 гр.",
+    "mediumDose": "286 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 141
+    }
+  },
+  {
+    "id": "pdf-142",
+    "name": "Кимчхи",
+    "group": "High",
+    "safeDose": "47 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 142
+    }
+  },
+  {
+    "id": "pdf-143",
+    "name": "Кинза/кориандр",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 143
+    }
+  },
+  {
+    "id": "pdf-144",
+    "name": "Киноа",
+    "group": "Low",
+    "safeDose": "155 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "575 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 144
+    }
+  },
+  {
+    "id": "pdf-145",
+    "name": "Кисло-сладкий соус",
+    "group": "Low",
+    "safeDose": "44 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "130 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 145
+    }
+  },
+  {
+    "id": "pdf-146",
+    "name": "Китайская горькая тыква",
+    "group": "High",
+    "safeDose": "15 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 146
+    }
+  },
+  {
+    "id": "pdf-147",
+    "name": "Китайская капуста",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 147
+    }
+  },
+  {
+    "id": "pdf-148",
+    "name": "Клементин",
+    "group": "Low",
+    "safeDose": "86 гр.",
+    "mediumDose": "130 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 148
+    }
+  },
+  {
+    "id": "pdf-149",
+    "name": "Кленовый сироп",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 149
+    }
+  },
+  {
+    "id": "pdf-150",
+    "name": "Клубника",
+    "group": "Medium",
+    "safeDose": "65 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 150
+    }
+  },
+  {
+    "id": "pdf-151",
+    "name": "Клубничный джем",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "63 гр.",
+    "highDose": "84 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 151
+    }
+  },
+  {
+    "id": "pdf-152",
+    "name": "Клюква",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "135 гр.",
+    "highDose": "165 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 152
+    }
+  },
+  {
+    "id": "pdf-153",
+    "name": "Клюква сушёная",
+    "group": "High",
+    "safeDose": "15 гр.",
+    "mediumDose": "23 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 3,
+      "row": 153
+    }
+  },
+  {
+    "id": "pdf-154",
+    "name": "Клюквенный морс",
+    "group": "Low",
+    "safeDose": "210 мл",
+    "mediumDose": "450 мл",
+    "highDose": "600 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 154
+    }
+  },
+  {
+    "id": "pdf-155",
+    "name": "Кокос",
+    "group": "Medium",
+    "safeDose": "64 гр.",
+    "mediumDose": "96 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 155
+    }
+  },
+  {
+    "id": "pdf-156",
+    "name": "Кокос измельчённый, высушенный",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 156
+    }
+  },
+  {
+    "id": "pdf-157",
+    "name": "Кокосовая вода",
+    "group": "High",
+    "safeDose": "100 гр.",
+    "mediumDose": "163 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 157
+    }
+  },
+  {
+    "id": "pdf-158",
+    "name": "Кокосовая мука",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 158
+    }
+  },
+  {
+    "id": "pdf-159",
+    "name": "Кокосовая молоко с инулином",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 159
+    }
+  },
+  {
+    "id": "pdf-160",
+    "name": "Кокосовые сливки",
+    "group": "Low",
+    "safeDose": "60 гр.",
+    "mediumDose": "95 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 160
+    }
+  },
+  {
+    "id": "pdf-161",
+    "name": "Колючая груша",
+    "group": "Low",
+    "safeDose": "166 гр.",
+    "mediumDose": "230 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 161
+    }
+  },
+  {
+    "id": "pdf-162",
+    "name": "Континентальный огурец",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "360 гр.",
+    "highDose": "545 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 162
+    }
+  },
+  {
+    "id": "pdf-163",
+    "name": "Корень имбиря",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 163
+    }
+  },
+  {
+    "id": "pdf-164",
+    "name": "Корень сельдерея",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "500 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 164
+    }
+  },
+  {
+    "id": "pdf-165",
+    "name": "Корнишоны",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "170 гр.",
+    "highDose": "280 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 165
+    }
+  },
+  {
+    "id": "pdf-166",
+    "name": "Красная фасоль, варёная",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 166
+    }
+  },
+  {
+    "id": "pdf-167",
+    "name": "Красное вино, сухое",
+    "group": "Low",
+    "safeDose": "150 мл",
+    "mediumDose": "250 мл",
+    "highDose": "300 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 167
+    }
+  },
+  {
+    "id": "pdf-168",
+    "name": "Красный винный уксус",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 168
+    }
+  },
+  {
+    "id": "pdf-169",
+    "name": "Красный лук",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 169
+    }
+  },
+  {
+    "id": "pdf-170",
+    "name": "Красный перец чили",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "42 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 170
+    }
+  },
+  {
+    "id": "pdf-171",
+    "name": "Красный перец хабанеро",
+    "group": "High",
+    "safeDose": "11 гр.",
+    "mediumDose": "53 гр.",
+    "highDose": "68 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 171
+    }
+  },
+  {
+    "id": "pdf-172",
+    "name": "Крахмал",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "1000 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 172
+    }
+  },
+  {
+    "id": "pdf-173",
+    "name": "Креветки",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 173
+    }
+  },
+  {
+    "id": "pdf-174",
+    "name": "Креветочные чипсы",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 174
+    }
+  },
+  {
+    "id": "pdf-175",
+    "name": "Крекеры солёные",
+    "group": "Low",
+    "safeDose": "14 гр.",
+    "mediumDose": "40 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 175
+    }
+  },
+  {
+    "id": "pdf-176",
+    "name": "Кремовое яблоко (аннона)",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 176
+    }
+  },
+  {
+    "id": "pdf-177",
+    "name": "Крендельки",
+    "group": "Low",
+    "safeDose": "24 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 177
+    }
+  },
+  {
+    "id": "pdf-178",
+    "name": "Кукуруза консервированная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "310 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 178
+    }
+  },
+  {
+    "id": "pdf-179",
+    "name": "Кукурузная мука",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "400 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 179
+    }
+  },
+  {
+    "id": "pdf-180",
+    "name": "Кукурузная тортилья",
+    "group": "Low",
+    "safeDose": "57 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 180
+    }
+  },
+  {
+    "id": "pdf-181",
+    "name": "Кукурузные хлопья",
+    "group": "Medium",
+    "safeDose": "15 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "45 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 181
+    }
+  },
+  {
+    "id": "pdf-182",
+    "name": "Кукурузные чипсы",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "85 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 182
+    }
+  },
+  {
+    "id": "pdf-183",
+    "name": "Кукурузный хлеб",
+    "group": "Low",
+    "safeDose": "35 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 183
+    }
+  },
+  {
+    "id": "pdf-184",
+    "name": "Кумин",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 184
+    }
+  },
+  {
+    "id": "pdf-185",
+    "name": "Кумкват",
+    "group": "Low",
+    "safeDose": "88 гр.",
+    "mediumDose": "180 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 185
+    }
+  },
+  {
+    "id": "pdf-186",
+    "name": "Кунжут",
+    "group": "Low",
+    "safeDose": "11 гр.",
+    "mediumDose": "33 гр.",
+    "highDose": "66 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 186
+    }
+  },
+  {
+    "id": "pdf-187",
+    "name": "Кунжутное масло",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 187
+    }
+  },
+  {
+    "id": "pdf-188",
+    "name": "Курага",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 188
+    }
+  },
+  {
+    "id": "pdf-189",
+    "name": "Курица",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 189
+    }
+  },
+  {
+    "id": "pdf-190",
+    "name": "Куркума",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 190
+    }
+  },
+  {
+    "id": "pdf-191",
+    "name": "Куркума свежая",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 191
+    }
+  },
+  {
+    "id": "pdf-192",
+    "name": "Кускус",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 192
+    }
+  },
+  {
+    "id": "pdf-193",
+    "name": "Лавровый лист",
+    "group": "Low",
+    "safeDose": "1 лист",
+    "mediumDose": "2 листа",
+    "highDose": "4 листа",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 193
+    }
+  },
+  {
+    "id": "pdf-194",
+    "name": "Лаймовый",
+    "group": "Low",
+    "safeDose": "250 гр.",
+    "mediumDose": "300 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 194
+    }
+  },
+  {
+    "id": "pdf-195",
+    "name": "Лемонграсс",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 195
+    }
+  },
+  {
+    "id": "pdf-196",
+    "name": "Лимонный сок",
+    "group": "Low",
+    "safeDose": "125 гр.",
+    "mediumDose": "187 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 196
+    }
+  },
+  {
+    "id": "pdf-197",
+    "name": "Лимская фасоль",
+    "group": "High",
+    "safeDose": "39 гр.",
+    "mediumDose": "54 гр.",
+    "highDose": "79 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 197
+    }
+  },
+  {
+    "id": "pdf-198",
+    "name": "Лимская фасоль, консервированная",
+    "group": "High",
+    "safeDose": "35 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 198
+    }
+  },
+  {
+    "id": "pdf-199",
+    "name": "Листовая капуста",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 199
+    }
+  },
+  {
+    "id": "pdf-200",
+    "name": "Листья карри",
+    "group": "Low",
+    "safeDose": "8 гр.",
+    "mediumDose": "24 гр.",
+    "highDose": "48 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 200
+    }
+  },
+  {
+    "id": "pdf-201",
+    "name": "Листья салата",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "225 гр.",
+    "highDose": "380 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 201
+    }
+  },
+  {
+    "id": "pdf-202",
+    "name": "Личи",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "40 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 202
+    }
+  },
+  {
+    "id": "pdf-203",
+    "name": "Лонган",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 203
+    }
+  },
+  {
+    "id": "pdf-204",
+    "name": "Лонган сушёный",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 204
+    }
+  },
+  {
+    "id": "pdf-205",
+    "name": "Лук-порей (листья)",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "190 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 4,
+      "row": 205
+    }
+  },
+  {
+    "id": "pdf-206",
+    "name": "Лук-порей (луковица)",
+    "group": "High",
+    "safeDose": "14 гр.",
+    "mediumDose": "18 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 206
+    }
+  },
+  {
+    "id": "pdf-207",
+    "name": "Лук-шалот",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 207
+    }
+  },
+  {
+    "id": "pdf-208",
+    "name": "Луковица укропа (фенхель)",
+    "group": "High",
+    "safeDose": "48 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 208
+    }
+  },
+  {
+    "id": "pdf-209",
+    "name": "Льняное семя",
+    "group": "Low",
+    "safeDose": "15 гр.",
+    "mediumDose": "22 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 209
+    }
+  },
+  {
+    "id": "pdf-210",
+    "name": "Люцерна",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "170 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 210
+    }
+  },
+  {
+    "id": "pdf-211",
+    "name": "Майонез",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "330 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 211
+    }
+  },
+  {
+    "id": "pdf-212",
+    "name": "Мак",
+    "group": "Low",
+    "safeDose": "24 гр.",
+    "mediumDose": "88 гр.",
+    "highDose": "135 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 212
+    }
+  },
+  {
+    "id": "pdf-213",
+    "name": "Макадамия",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "110 гр.",
+    "highDose": "135 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 213
+    }
+  },
+  {
+    "id": "pdf-214",
+    "name": "Малина",
+    "group": "High",
+    "safeDose": "60 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "135 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 214
+    }
+  },
+  {
+    "id": "pdf-215",
+    "name": "Малиновый джем",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "115 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 215
+    }
+  },
+  {
+    "id": "pdf-216",
+    "name": "Манго",
+    "group": "High",
+    "safeDose": "40 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 216
+    }
+  },
+  {
+    "id": "pdf-217",
+    "name": "Манго сушёный",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 217
+    }
+  },
+  {
+    "id": "pdf-218",
+    "name": "Мангольд",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "185 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 218
+    }
+  },
+  {
+    "id": "pdf-219",
+    "name": "Мангостин",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 219
+    }
+  },
+  {
+    "id": "pdf-220",
+    "name": "Мандарины",
+    "group": "Low",
+    "safeDose": "90 гр.",
+    "mediumDose": "97 гр.",
+    "highDose": "146 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 220
+    }
+  },
+  {
+    "id": "pdf-221",
+    "name": "Манжту",
+    "group": "High",
+    "safeDose": "17 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 221
+    }
+  },
+  {
+    "id": "pdf-222",
+    "name": "Маракуйя",
+    "group": "Low",
+    "safeDose": "46 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "126 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 222
+    }
+  },
+  {
+    "id": "pdf-223",
+    "name": "Маргарин",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 223
+    }
+  },
+  {
+    "id": "pdf-224",
+    "name": "Маслины без косточки",
+    "group": "Low",
+    "safeDose": "60 гр.",
+    "mediumDose": "135 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 224
+    }
+  },
+  {
+    "id": "pdf-225",
+    "name": "Мёд",
+    "group": "High",
+    "safeDose": "7 гр.",
+    "mediumDose": "14 гр.",
+    "highDose": "28 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 225
+    }
+  },
+  {
+    "id": "pdf-226",
+    "name": "Миндаль",
+    "group": "High",
+    "safeDose": "12 гр.",
+    "mediumDose": "18 гр.",
+    "highDose": "24 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 226
+    }
+  },
+  {
+    "id": "pdf-227",
+    "name": "Миндальная мука",
+    "group": "High",
+    "safeDose": "24 гр.",
+    "mediumDose": "36 гр.",
+    "highDose": "48 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 227
+    }
+  },
+  {
+    "id": "pdf-228",
+    "name": "Миндальная паста",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "32 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 228
+    }
+  },
+  {
+    "id": "pdf-229",
+    "name": "Миндальное молоко",
+    "group": "Low",
+    "safeDose": "250 мл",
+    "mediumDose": "330 мл",
+    "highDose": "550 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 229
+    }
+  },
+  {
+    "id": "pdf-230",
+    "name": "Мини-кукуруза консервированная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "165 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 230
+    }
+  },
+  {
+    "id": "pdf-231",
+    "name": "Мисо паста",
+    "group": "Low",
+    "safeDose": "12 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "90 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 231
+    }
+  },
+  {
+    "id": "pdf-232",
+    "name": "Молоко",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "257 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 232
+    }
+  },
+  {
+    "id": "pdf-233",
+    "name": "Молоко безлактозное",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 233
+    }
+  },
+  {
+    "id": "pdf-234",
+    "name": "Молочный шоколад",
+    "group": "Medium",
+    "safeDose": "20 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 234
+    }
+  },
+  {
+    "id": "pdf-235",
+    "name": "Морковь",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "1000 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 235
+    }
+  },
+  {
+    "id": "pdf-236",
+    "name": "Мороженое ванильное",
+    "group": "Medium",
+    "safeDose": "30 гр.",
+    "mediumDose": "88 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 236
+    }
+  },
+  {
+    "id": "pdf-237",
+    "name": "Мука из арроурута",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "180 гр.",
+    "highDose": "270 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 237
+    }
+  },
+  {
+    "id": "pdf-238",
+    "name": "Мука из киноа",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "575 гр.",
+    "highDose": "750 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 238
+    }
+  },
+  {
+    "id": "pdf-239",
+    "name": "Мультизерновой хлеб",
+    "group": "High",
+    "safeDose": "17 гр.",
+    "mediumDose": "34 гр.",
+    "highDose": "68 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 239
+    }
+  },
+  {
+    "id": "pdf-240",
+    "name": "Мускатный орех",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 240
+    }
+  },
+  {
+    "id": "pdf-241",
+    "name": "Мюсли",
+    "group": "High",
+    "safeDose": "18 гр.",
+    "mediumDose": "21 гр.",
+    "highDose": "55 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 241
+    }
+  },
+  {
+    "id": "pdf-242",
+    "name": "Мята свежая",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 242
+    }
+  },
+  {
+    "id": "pdf-243",
+    "name": "Мятный чай",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 243
+    }
+  },
+  {
+    "id": "pdf-244",
+    "name": "Напиток с соком алоэ",
+    "group": "High",
+    "safeDose": "64 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 244
+    }
+  },
+  {
+    "id": "pdf-245",
+    "name": "Нектарин",
+    "group": "High",
+    "safeDose": "18 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 245
+    }
+  },
+  {
+    "id": "pdf-246",
+    "name": "Нори",
+    "group": "Low",
+    "safeDose": "2 листа",
+    "mediumDose": "8 листов",
+    "highDose": "16 листов",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 246
+    }
+  },
+  {
+    "id": "pdf-247",
+    "name": "Нут консервированный",
+    "group": "Medium",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 247
+    }
+  },
+  {
+    "id": "pdf-248",
+    "name": "Нут пророщенный",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "22 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 248
+    }
+  },
+  {
+    "id": "pdf-249",
+    "name": "Овсяная крупа",
+    "group": "Low",
+    "safeDose": "60 гр.",
+    "mediumDose": "240 гр.",
+    "highDose": "280 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 249
+    }
+  },
+  {
+    "id": "pdf-250",
+    "name": "Овсяное молоко",
+    "group": "High",
+    "safeDose": "104 гр.",
+    "mediumDose": "121 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 250
+    }
+  },
+  {
+    "id": "pdf-251",
+    "name": "Овсяное печенье",
+    "group": "Low",
+    "safeDose": "36 гр.",
+    "mediumDose": "64 гр.",
+    "highDose": "81 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 251
+    }
+  },
+  {
+    "id": "pdf-252",
+    "name": "Овсяные отруби",
+    "group": "Low",
+    "safeDose": "22 гр.",
+    "mediumDose": "66 гр.",
+    "highDose": "88 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 252
+    }
+  },
+  {
+    "id": "pdf-253",
+    "name": "Овсяные хлопья",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 253
+    }
+  },
+  {
+    "id": "pdf-254",
+    "name": "Овсяный батончик",
+    "group": "High",
+    "safeDose": "8 гр.",
+    "mediumDose": "12 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 254
+    }
+  },
+  {
+    "id": "pdf-255",
+    "name": "Овсяный хлеб",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 255
+    }
+  },
+  {
+    "id": "pdf-256",
+    "name": "Огурец",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "360 гр.",
+    "highDose": "545 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 256
+    }
+  },
+  {
+    "id": "pdf-257",
+    "name": "Окра",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "90 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 5,
+      "row": 257
+    }
+  },
+  {
+    "id": "pdf-258",
+    "name": "Оливки без косточки",
+    "group": "Low",
+    "safeDose": "60 гр.",
+    "mediumDose": "135 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 258
+    }
+  },
+  {
+    "id": "pdf-259",
+    "name": "Оливковое масло",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 259
+    }
+  },
+  {
+    "id": "pdf-260",
+    "name": "Орегано сушёный",
+    "group": "Low",
+    "safeDose": "3 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 260
+    }
+  },
+  {
+    "id": "pdf-261",
+    "name": "Острый перец Анчо",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 261
+    }
+  },
+  {
+    "id": "pdf-262",
+    "name": "Папайя",
+    "group": "Low",
+    "safeDose": "140 гр.",
+    "mediumDose": "210 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 262
+    }
+  },
+  {
+    "id": "pdf-263",
+    "name": "Паприка",
+    "group": "Low",
+    "safeDose": "3 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 263
+    }
+  },
+  {
+    "id": "pdf-264",
+    "name": "Паста из киноа",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "380 гр.",
+    "highDose": "545 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 264
+    }
+  },
+  {
+    "id": "pdf-265",
+    "name": "Паста из нута",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 265
+    }
+  },
+  {
+    "id": "pdf-266",
+    "name": "Паста из полбы",
+    "group": "Low",
+    "safeDose": "74 гр.",
+    "mediumDose": "101 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 266
+    }
+  },
+  {
+    "id": "pdf-267",
+    "name": "Пастернак",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 267
+    }
+  },
+  {
+    "id": "pdf-268",
+    "name": "Патиссон",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "140 гр.",
+    "highDose": "190 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 268
+    }
+  },
+  {
+    "id": "pdf-269",
+    "name": "Пекан",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 269
+    }
+  },
+  {
+    "id": "pdf-270",
+    "name": "Перец острый Поблано",
+    "group": "Low",
+    "safeDose": "97 гр.",
+    "mediumDose": "340 гр.",
+    "highDose": "420 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 270
+    }
+  },
+  {
+    "id": "pdf-271",
+    "name": "Перец острый Чипотле",
+    "group": "High",
+    "safeDose": "нет",
+    "mediumDose": "3 гр.",
+    "highDose": "18 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 271
+    }
+  },
+  {
+    "id": "pdf-272",
+    "name": "Перец чили, порошок",
+    "group": "Low",
+    "safeDose": "2 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "70 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 272
+    }
+  },
+  {
+    "id": "pdf-273",
+    "name": "Перечный соус",
+    "group": "Low",
+    "safeDose": "15 гр.",
+    "mediumDose": "23 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 273
+    }
+  },
+  {
+    "id": "pdf-274",
+    "name": "Перловка",
+    "group": "High",
+    "safeDose": "28 гр.",
+    "mediumDose": "112 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 274
+    }
+  },
+  {
+    "id": "pdf-275",
+    "name": "Персик белый",
+    "group": "High",
+    "safeDose": "18 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "145 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 275
+    }
+  },
+  {
+    "id": "pdf-276",
+    "name": "Персик жёлтый",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "145 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 276
+    }
+  },
+  {
+    "id": "pdf-277",
+    "name": "Персики консервированные",
+    "group": "High",
+    "safeDose": "18 гр.",
+    "mediumDose": "34 гр.",
+    "highDose": "80 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 277
+    }
+  },
+  {
+    "id": "pdf-278",
+    "name": "Персики сушёные",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 278
+    }
+  },
+  {
+    "id": "pdf-279",
+    "name": "Перьевой лук (луковица)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 279
+    }
+  },
+  {
+    "id": "pdf-280",
+    "name": "Песочное печенье",
+    "group": "Medium",
+    "safeDose": "13 гр.",
+    "mediumDose": "26 гр.",
+    "highDose": "39 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 280
+    }
+  },
+  {
+    "id": "pdf-281",
+    "name": "Петрушка",
+    "group": "Low",
+    "safeDose": "16 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "110 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 281
+    }
+  },
+  {
+    "id": "pdf-282",
+    "name": "Печенье",
+    "group": "Low",
+    "safeDose": "18 гр.",
+    "mediumDose": "36 гр.",
+    "highDose": "45 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 282
+    }
+  },
+  {
+    "id": "pdf-283",
+    "name": "Печенье с фруктовой начинкой",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 283
+    }
+  },
+  {
+    "id": "pdf-284",
+    "name": "Печенье с шоколадной крошкой",
+    "group": "High",
+    "safeDose": "12 гр.",
+    "mediumDose": "18 гр.",
+    "highDose": "24 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 284
+    }
+  },
+  {
+    "id": "pdf-285",
+    "name": "Печенье сладкое",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 285
+    }
+  },
+  {
+    "id": "pdf-286",
+    "name": "Печенье цельнозерновое",
+    "group": "Low",
+    "safeDose": "18 гр.",
+    "mediumDose": "36 гр.",
+    "highDose": "54 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 286
+    }
+  },
+  {
+    "id": "pdf-287",
+    "name": "Пиво (лагер)",
+    "group": "Low",
+    "safeDose": "375 мл",
+    "mediumDose": "500 мл",
+    "highDose": "750 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 287
+    }
+  },
+  {
+    "id": "pdf-288",
+    "name": "Питахайя (драконий фрукт)",
+    "group": "High",
+    "safeDose": "330 гр.",
+    "mediumDose": "500 гр.",
+    "highDose": "750 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 288
+    }
+  },
+  {
+    "id": "pdf-289",
+    "name": "Плантан (овощной банан)",
+    "group": "Low",
+    "safeDose": "145 гр.",
+    "mediumDose": "300 гр.",
+    "highDose": "450 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 289
+    }
+  },
+  {
+    "id": "pdf-290",
+    "name": "Плод хлебного дерева",
+    "group": "Low",
+    "safeDose": "192 гр.",
+    "mediumDose": "370 гр.",
+    "highDose": "560 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 290
+    }
+  },
+  {
+    "id": "pdf-291",
+    "name": "Побеги бамбука (консервированные)",
+    "group": "Low",
+    "safeDose": "84 гр.",
+    "mediumDose": "168 гр.",
+    "highDose": "230 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 291
+    }
+  },
+  {
+    "id": "pdf-292",
+    "name": "Побеги бамбука (сырые)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "245 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 292
+    }
+  },
+  {
+    "id": "pdf-293",
+    "name": "Побеги чеснока (в т. ч. Черемша)",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "40 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 293
+    }
+  },
+  {
+    "id": "pdf-294",
+    "name": "Подсолнечное масло",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 294
+    }
+  },
+  {
+    "id": "pdf-295",
+    "name": "Полба (крупа)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 295
+    }
+  },
+  {
+    "id": "pdf-296",
+    "name": "Полбяная мука",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 296
+    }
+  },
+  {
+    "id": "pdf-297",
+    "name": "Полбяной хлеб",
+    "group": "Low",
+    "safeDose": "70 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 297
+    }
+  },
+  {
+    "id": "pdf-298",
+    "name": "Полбяные хлопья",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 298
+    }
+  },
+  {
+    "id": "pdf-299",
+    "name": "Полента (мамалыга)",
+    "group": "Low",
+    "safeDose": "255 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "500 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 299
+    }
+  },
+  {
+    "id": "pdf-300",
+    "name": "Полынь эстрагон",
+    "group": "Low",
+    "safeDose": "16 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 300
+    }
+  },
+  {
+    "id": "pdf-301",
+    "name": "Помидор",
+    "group": "Medium",
+    "safeDose": "65 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "91 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 301
+    }
+  },
+  {
+    "id": "pdf-302",
+    "name": "Помидор консервированный",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "138 гр.",
+    "highDose": "186 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 302
+    }
+  },
+  {
+    "id": "pdf-303",
+    "name": "Помидор Рома (пулька)",
+    "group": "High",
+    "safeDose": "48 гр.",
+    "mediumDose": "64 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 303
+    }
+  },
+  {
+    "id": "pdf-304",
+    "name": "Помидор сушёный",
+    "group": "Medium",
+    "safeDose": "8 гр.",
+    "mediumDose": "16 гр.",
+    "highDose": "20 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 304
+    }
+  },
+  {
+    "id": "pdf-305",
+    "name": "Помидор черри",
+    "group": "High",
+    "safeDose": "45 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 305
+    }
+  },
+  {
+    "id": "pdf-306",
+    "name": "Попкорн",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 306
+    }
+  },
+  {
+    "id": "pdf-307",
+    "name": "Порошок васаби",
+    "group": "Low",
+    "safeDose": "5 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "45 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 307
+    }
+  },
+  {
+    "id": "pdf-308",
+    "name": "Прованские травы",
+    "group": "Low",
+    "safeDose": "5 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "90 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 308
+    }
+  },
+  {
+    "id": "pdf-309",
+    "name": "Пророщенные бобы",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "95 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 6,
+      "row": 309
+    }
+  },
+  {
+    "id": "pdf-310",
+    "name": "Простокваша (пахта)",
+    "group": "High",
+    "safeDose": "16 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "260 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 310
+    }
+  },
+  {
+    "id": "pdf-311",
+    "name": "Пшеничная лапша",
+    "group": "High",
+    "safeDose": "34 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "84 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 311
+    }
+  },
+  {
+    "id": "pdf-312",
+    "name": "Пшеничная мука",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 312
+    }
+  },
+  {
+    "id": "pdf-313",
+    "name": "Пшеничная паста приготовленная",
+    "group": "High",
+    "safeDose": "74 гр.",
+    "mediumDose": "101 гр.",
+    "highDose": "148 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 313
+    }
+  },
+  {
+    "id": "pdf-314",
+    "name": "Пшеничная тортилья (лаваш)",
+    "group": "Low",
+    "safeDose": "35 гр.",
+    "mediumDose": "43 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 314
+    }
+  },
+  {
+    "id": "pdf-315",
+    "name": "Пшеничные отруби необработанные",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "7 гр.",
+    "highDose": "10 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 315
+    }
+  },
+  {
+    "id": "pdf-316",
+    "name": "Пшеничные отруби обработанные",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "7 гр.",
+    "highDose": "10 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 316
+    }
+  },
+  {
+    "id": "pdf-317",
+    "name": "Пшено, крупа приготовленная",
+    "group": "Low",
+    "safeDose": "184 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "400 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 317
+    }
+  },
+  {
+    "id": "pdf-318",
+    "name": "Пшенная мука",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "135 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 318
+    }
+  },
+  {
+    "id": "pdf-319",
+    "name": "Пшенный хлеб",
+    "group": "Low",
+    "safeDose": "56 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 319
+    }
+  },
+  {
+    "id": "pdf-320",
+    "name": "Рамбутан",
+    "group": "High",
+    "safeDose": "48 гр.",
+    "mediumDose": "64 гр.",
+    "highDose": "96 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 320
+    }
+  },
+  {
+    "id": "pdf-321",
+    "name": "Ревень",
+    "group": "Low",
+    "safeDose": "150 гр.",
+    "mediumDose": "225 гр.",
+    "highDose": "260 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 321
+    }
+  },
+  {
+    "id": "pdf-322",
+    "name": "Редис",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "300 гр.",
+    "highDose": "410 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 322
+    }
+  },
+  {
+    "id": "pdf-323",
+    "name": "Репа",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 323
+    }
+  },
+  {
+    "id": "pdf-324",
+    "name": "Ржаная мука",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 324
+    }
+  },
+  {
+    "id": "pdf-325",
+    "name": "Ржаной хлеб",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 325
+    }
+  },
+  {
+    "id": "pdf-326",
+    "name": "Ржаные хлебцы",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 326
+    }
+  },
+  {
+    "id": "pdf-327",
+    "name": "Рисовая лапша",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 327
+    }
+  },
+  {
+    "id": "pdf-328",
+    "name": "Рисовая мука",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 328
+    }
+  },
+  {
+    "id": "pdf-329",
+    "name": "Рисовое молоко",
+    "group": "High",
+    "safeDose": "200 мл",
+    "mediumDose": "220 мл",
+    "highDose": "250 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 329
+    }
+  },
+  {
+    "id": "pdf-330",
+    "name": "Рисовые отруби",
+    "group": "Low",
+    "safeDose": "16 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 330
+    }
+  },
+  {
+    "id": "pdf-331",
+    "name": "Рисовые хлебцы",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "35 гр.",
+    "highDose": "49 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 331
+    }
+  },
+  {
+    "id": "pdf-332",
+    "name": "Рисовые хлопья",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 332
+    }
+  },
+  {
+    "id": "pdf-333",
+    "name": "Рисовый уксус",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 333
+    }
+  },
+  {
+    "id": "pdf-334",
+    "name": "Розмарин",
+    "group": "Low",
+    "safeDose": "16 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 334
+    }
+  },
+  {
+    "id": "pdf-335",
+    "name": "Ром",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 335
+    }
+  },
+  {
+    "id": "pdf-336",
+    "name": "Ромашковый чай",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 336
+    }
+  },
+  {
+    "id": "pdf-337",
+    "name": "Руккола",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "225 гр.",
+    "highDose": "270 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 337
+    }
+  },
+  {
+    "id": "pdf-338",
+    "name": "Рыба",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 338
+    }
+  },
+  {
+    "id": "pdf-339",
+    "name": "Рыбные консервы",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 339
+    }
+  },
+  {
+    "id": "pdf-340",
+    "name": "Рыжий гриб",
+    "group": "High",
+    "safeDose": "17 гр.",
+    "mediumDose": "27 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 340
+    }
+  },
+  {
+    "id": "pdf-341",
+    "name": "Салат айсберг",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "180 гр.",
+    "highDose": "271 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 341
+    }
+  },
+  {
+    "id": "pdf-342",
+    "name": "Салат кочанный",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "180 гр.",
+    "highDose": "271 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 342
+    }
+  },
+  {
+    "id": "pdf-343",
+    "name": "Салат римский (ромэн)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "180 гр.",
+    "highDose": "271 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 343
+    }
+  },
+  {
+    "id": "pdf-344",
+    "name": "Сальса верде",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 344
+    }
+  },
+  {
+    "id": "pdf-345",
+    "name": "Сальса майлд",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 345
+    }
+  },
+  {
+    "id": "pdf-346",
+    "name": "Сахарный горох",
+    "group": "High",
+    "safeDose": "14 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 346
+    }
+  },
+  {
+    "id": "pdf-347",
+    "name": "Свекла сырая",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "32 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 347
+    }
+  },
+  {
+    "id": "pdf-348",
+    "name": "Свекла консервированная",
+    "group": "Low",
+    "safeDose": "60 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "155 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 348
+    }
+  },
+  {
+    "id": "pdf-349",
+    "name": "Свекла (листья)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "140 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 349
+    }
+  },
+  {
+    "id": "pdf-350",
+    "name": "Свекла маринованная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "140 гр.",
+    "highDose": "250 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 350
+    }
+  },
+  {
+    "id": "pdf-351",
+    "name": "Свинина",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 351
+    }
+  },
+  {
+    "id": "pdf-352",
+    "name": "Сгущённое молоко",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "257 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 352
+    }
+  },
+  {
+    "id": "pdf-353",
+    "name": "Сельдерей (стебль)",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 353
+    }
+  },
+  {
+    "id": "pdf-354",
+    "name": "Семена чип",
+    "group": "Low",
+    "safeDose": "24 гр.",
+    "mediumDose": "36 гр.",
+    "highDose": "48 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 354
+    }
+  },
+  {
+    "id": "pdf-355",
+    "name": "Семечки подсолнуха",
+    "group": "Low",
+    "safeDose": "6 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "70 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 355
+    }
+  },
+  {
+    "id": "pdf-356",
+    "name": "Сердцевины артишока, консервы",
+    "group": "High",
+    "safeDose": "50 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 356
+    }
+  },
+  {
+    "id": "pdf-357",
+    "name": "Сироп агавы",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "21 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 357
+    }
+  },
+  {
+    "id": "pdf-358",
+    "name": "Сладкая кукуруза",
+    "group": "High",
+    "safeDose": "38 гр.",
+    "mediumDose": "63 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 358
+    }
+  },
+  {
+    "id": "pdf-359",
+    "name": "Сладкий картофель (батат)",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "112 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 359
+    }
+  },
+  {
+    "id": "pdf-360",
+    "name": "Слива",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "66 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 360
+    }
+  },
+  {
+    "id": "pdf-361",
+    "name": "Сливочное масло",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "130 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 7,
+      "row": 361
+    }
+  },
+  {
+    "id": "pdf-362",
+    "name": "Сливочный сыр",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "160 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 362
+    }
+  },
+  {
+    "id": "pdf-363",
+    "name": "Сливочный сыр безлактозный",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 363
+    }
+  },
+  {
+    "id": "pdf-364",
+    "name": "Смородина сушёная",
+    "group": "High",
+    "safeDose": "13 гр.",
+    "mediumDose": "16 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 364
+    }
+  },
+  {
+    "id": "pdf-365",
+    "name": "Соба (лапша гречневая)",
+    "group": "Low",
+    "safeDose": "90 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 365
+    }
+  },
+  {
+    "id": "pdf-366",
+    "name": "Соевое молоко (из соевого белка)",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 366
+    }
+  },
+  {
+    "id": "pdf-367",
+    "name": "Соевое молоко (из соевых бобов)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 367
+    }
+  },
+  {
+    "id": "pdf-368",
+    "name": "Соевые бобы (варёные)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 368
+    }
+  },
+  {
+    "id": "pdf-369",
+    "name": "Соевый белок текстурированный",
+    "group": "High",
+    "safeDose": "15 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 369
+    }
+  },
+  {
+    "id": "pdf-370",
+    "name": "Соевый соус",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 370
+    }
+  },
+  {
+    "id": "pdf-371",
+    "name": "Сок мультифруктовый",
+    "group": "High",
+    "safeDose": "30 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 371
+    }
+  },
+  {
+    "id": "pdf-372",
+    "name": "Солодовый уксус",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 372
+    }
+  },
+  {
+    "id": "pdf-373",
+    "name": "Соус барбекю",
+    "group": "Low",
+    "safeDose": "46 гр.",
+    "mediumDose": "100 гр.",
+    "highDose": "170 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 373
+    }
+  },
+  {
+    "id": "pdf-374",
+    "name": "Соус песто",
+    "group": "Medium",
+    "safeDose": "10 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 374
+    }
+  },
+  {
+    "id": "pdf-375",
+    "name": "Соус тамари",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 375
+    }
+  },
+  {
+    "id": "pdf-376",
+    "name": "Спаржа",
+    "group": "High",
+    "safeDose": "12 гр.",
+    "mediumDose": "17 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 376
+    }
+  },
+  {
+    "id": "pdf-377",
+    "name": "Старфрут",
+    "group": "Low",
+    "safeDose": "94 гр.",
+    "mediumDose": "220 гр.",
+    "highDose": "325 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 377
+    }
+  },
+  {
+    "id": "pdf-378",
+    "name": "Стевия",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 378
+    }
+  },
+  {
+    "id": "pdf-379",
+    "name": "Стручки ванили",
+    "group": "Low",
+    "safeDose": "8 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 379
+    }
+  },
+  {
+    "id": "pdf-380",
+    "name": "Стручковая фасоль",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "180 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 380
+    }
+  },
+  {
+    "id": "pdf-381",
+    "name": "Стручковый горох",
+    "group": "High",
+    "safeDose": "16 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 381
+    }
+  },
+  {
+    "id": "pdf-382",
+    "name": "Сумах",
+    "group": "Low",
+    "safeDose": "2 гр.",
+    "mediumDose": "44 гр.",
+    "highDose": "70 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 382
+    }
+  },
+  {
+    "id": "pdf-383",
+    "name": "Сухое кокосовое молоко",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 383
+    }
+  },
+  {
+    "id": "pdf-384",
+    "name": "Сыр бри",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "160 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 384
+    }
+  },
+  {
+    "id": "pdf-385",
+    "name": "Сыр веганский (на кокосовом масле)",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "420 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 385
+    }
+  },
+  {
+    "id": "pdf-386",
+    "name": "Сыр грюйер",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "160 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 386
+    }
+  },
+  {
+    "id": "pdf-387",
+    "name": "Сыр камамбер",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "160 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 387
+    }
+  },
+  {
+    "id": "pdf-388",
+    "name": "Сыр кесо фреско",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "180 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 388
+    }
+  },
+  {
+    "id": "pdf-389",
+    "name": "Сыр козий",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 389
+    }
+  },
+  {
+    "id": "pdf-390",
+    "name": "Сыр колби",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "180 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 390
+    }
+  },
+  {
+    "id": "pdf-391",
+    "name": "Сыр комте",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 391
+    }
+  },
+  {
+    "id": "pdf-392",
+    "name": "Сыр манчего",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 392
+    }
+  },
+  {
+    "id": "pdf-393",
+    "name": "Сыр моцарелла",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "450 гр.",
+    "highDose": "650 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 393
+    }
+  },
+  {
+    "id": "pdf-394",
+    "name": "Сыр монтрей джек",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 394
+    }
+  },
+  {
+    "id": "pdf-395",
+    "name": "Сыр оахака",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "250 гр.",
+    "highDose": "320 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 395
+    }
+  },
+  {
+    "id": "pdf-396",
+    "name": "Сыр панир",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "55 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 396
+    }
+  },
+  {
+    "id": "pdf-397",
+    "name": "Сыр пармезан",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "130 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 397
+    }
+  },
+  {
+    "id": "pdf-398",
+    "name": "Сыр пармиджиано-реджано",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "130 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 398
+    }
+  },
+  {
+    "id": "pdf-399",
+    "name": "Сыр пекорино",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "130 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 399
+    }
+  },
+  {
+    "id": "pdf-400",
+    "name": "Сыр рикотта",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 400
+    }
+  },
+  {
+    "id": "pdf-401",
+    "name": "Сыр фета",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "450 гр.",
+    "highDose": "650 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 401
+    }
+  },
+  {
+    "id": "pdf-402",
+    "name": "Сыр хаварти",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "130 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 402
+    }
+  },
+  {
+    "id": "pdf-403",
+    "name": "Сыр халуми",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 403
+    }
+  },
+  {
+    "id": "pdf-404",
+    "name": "Сыр чеддер",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 404
+    }
+  },
+  {
+    "id": "pdf-405",
+    "name": "Сыр швейцарский",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 405
+    }
+  },
+  {
+    "id": "pdf-406",
+    "name": "Тамарилло",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "140 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 406
+    }
+  },
+  {
+    "id": "pdf-407",
+    "name": "Тамаринд",
+    "group": "High",
+    "safeDose": "8 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "20 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 407
+    }
+  },
+  {
+    "id": "pdf-408",
+    "name": "Таро",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "90 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 408
+    }
+  },
+  {
+    "id": "pdf-409",
+    "name": "Тахини",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "110 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 409
+    }
+  },
+  {
+    "id": "pdf-410",
+    "name": "Творог (творожный сыр)",
+    "group": "Low",
+    "safeDose": "40 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "210 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 410
+    }
+  },
+  {
+    "id": "pdf-411",
+    "name": "Текила",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "30 гр.",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 411
+    }
+  },
+  {
+    "id": "pdf-412",
+    "name": "Тёмный шоколад 56%",
+    "group": "Low",
+    "safeDose": "30 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "125 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 412
+    }
+  },
+  {
+    "id": "pdf-413",
+    "name": "Тёмный шоколад 85%+",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "280 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 8,
+      "row": 413
+    }
+  },
+  {
+    "id": "pdf-414",
+    "name": "Темпе",
+    "group": "Low",
+    "safeDose": "100 гр.",
+    "mediumDose": "200 гр.",
+    "highDose": "220 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 414
+    }
+  },
+  {
+    "id": "pdf-415",
+    "name": "Тимьян",
+    "group": "Low",
+    "safeDose": "16 гр.",
+    "mediumDose": "70 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 415
+    }
+  },
+  {
+    "id": "pdf-416",
+    "name": "Томатная паста",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "81 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 416
+    }
+  },
+  {
+    "id": "pdf-417",
+    "name": "Томатный сок",
+    "group": "Low",
+    "safeDose": "210 мл",
+    "mediumDose": "330 мл",
+    "highDose": "500 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 417
+    }
+  },
+  {
+    "id": "pdf-418",
+    "name": "Топинамбур (артишок иерусалимский)",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 418
+    }
+  },
+  {
+    "id": "pdf-419",
+    "name": "Топлёное масло",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "130 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 419
+    }
+  },
+  {
+    "id": "pdf-420",
+    "name": "Тофу мягкий",
+    "group": "High",
+    "safeDose": "39 гр.",
+    "mediumDose": "46 гр.",
+    "highDose": "170 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 420
+    }
+  },
+  {
+    "id": "pdf-421",
+    "name": "Тофу твёрдый",
+    "group": "Low",
+    "safeDose": "170 гр.",
+    "mediumDose": "175 гр.",
+    "highDose": "205 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 421
+    }
+  },
+  {
+    "id": "pdf-422",
+    "name": "Травяной чай (смесь трав)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 422
+    }
+  },
+  {
+    "id": "pdf-423",
+    "name": "Тростниковый сахар",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 423
+    }
+  },
+  {
+    "id": "pdf-424",
+    "name": "Тыква баттернат",
+    "group": "High",
+    "safeDose": "45 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 424
+    }
+  },
+  {
+    "id": "pdf-425",
+    "name": "Тыква консервированная",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "160 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 425
+    }
+  },
+  {
+    "id": "pdf-426",
+    "name": "Тыква мускатная",
+    "group": "High",
+    "safeDose": "45 гр.",
+    "mediumDose": "60 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 426
+    }
+  },
+  {
+    "id": "pdf-427",
+    "name": "Тыква спагетти",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "400 гр.",
+    "highDose": "450 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 427
+    }
+  },
+  {
+    "id": "pdf-428",
+    "name": "Тыква японская",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "400 гр.",
+    "highDose": "450 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 428
+    }
+  },
+  {
+    "id": "pdf-429",
+    "name": "Тыквенные семечки",
+    "group": "Low",
+    "safeDose": "24 гр.",
+    "mediumDose": "36 гр.",
+    "highDose": "48 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 429
+    }
+  },
+  {
+    "id": "pdf-430",
+    "name": "Укроп",
+    "group": "Low",
+    "safeDose": "15 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 430
+    }
+  },
+  {
+    "id": "pdf-431",
+    "name": "Укроп душистый",
+    "group": "Low",
+    "safeDose": "15 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 431
+    }
+  },
+  {
+    "id": "pdf-432",
+    "name": "Устричный соус",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 432
+    }
+  },
+  {
+    "id": "pdf-433",
+    "name": "Фалафель",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 433
+    }
+  },
+  {
+    "id": "pdf-434",
+    "name": "Фасоль красная, пророщенная",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "150 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 434
+    }
+  },
+  {
+    "id": "pdf-435",
+    "name": "Фасоль пинто",
+    "group": "Low",
+    "safeDose": "14 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 435
+    }
+  },
+  {
+    "id": "pdf-436",
+    "name": "Фасоль спаржевая",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "200 гр.",
+    "highDose": "263 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 436
+    }
+  },
+  {
+    "id": "pdf-437",
+    "name": "Фейхоа",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 437
+    }
+  },
+  {
+    "id": "pdf-438",
+    "name": "Физалис овощной",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "253 гр.",
+    "highDose": "317 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 438
+    }
+  },
+  {
+    "id": "pdf-439",
+    "name": "Финики сушёные",
+    "group": "High",
+    "safeDose": "8 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 439
+    }
+  },
+  {
+    "id": "pdf-440",
+    "name": "Фисташки",
+    "group": "High",
+    "safeDose": "7 гр.",
+    "mediumDose": "11 гр.",
+    "highDose": "23 гр",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 440
+    }
+  },
+  {
+    "id": "pdf-441",
+    "name": "Финики",
+    "group": "Medium",
+    "safeDose": "15 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "100 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 441
+    }
+  },
+  {
+    "id": "pdf-442",
+    "name": "Халапеньо маринованный",
+    "group": "Low",
+    "safeDose": "10 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 442
+    }
+  },
+  {
+    "id": "pdf-443",
+    "name": "Хлеб с изюмом",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 443
+    }
+  },
+  {
+    "id": "pdf-444",
+    "name": "Хлопья киноа",
+    "group": "Low",
+    "safeDose": "50 гр.",
+    "mediumDose": "120 гр.",
+    "highDose": "135 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 444
+    }
+  },
+  {
+    "id": "pdf-445",
+    "name": "Хрен",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "90 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 445
+    }
+  },
+  {
+    "id": "pdf-446",
+    "name": "Хумус",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "20 гр.",
+    "highDose": "40 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 446
+    }
+  },
+  {
+    "id": "pdf-447",
+    "name": "Хурма",
+    "group": "High",
+    "safeDose": "60 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "75 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 447
+    }
+  },
+  {
+    "id": "pdf-448",
+    "name": "Цветная капуста",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 448
+    }
+  },
+  {
+    "id": "pdf-449",
+    "name": "Цедра апельсина",
+    "group": "Low",
+    "safeDose": "5 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 449
+    }
+  },
+  {
+    "id": "pdf-450",
+    "name": "Цедра лимона",
+    "group": "Low",
+    "safeDose": "5 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 450
+    }
+  },
+  {
+    "id": "pdf-451",
+    "name": "Цельнозерновой пшеничный хлеб",
+    "group": "High",
+    "safeDose": "13 гр.",
+    "mediumDose": "26 гр.",
+    "highDose": "52 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 451
+    }
+  },
+  {
+    "id": "pdf-452",
+    "name": "Цукаты из папайи",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "15 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 452
+    }
+  },
+  {
+    "id": "pdf-453",
+    "name": "Цукини мякоть",
+    "group": "Low",
+    "safeDose": "65 гр.",
+    "mediumDose": "75 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 453
+    }
+  },
+  {
+    "id": "pdf-454",
+    "name": "Чай ройбуш",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 454
+    }
+  },
+  {
+    "id": "pdf-455",
+    "name": "Чай улун некрепкий",
+    "group": "High",
+    "safeDose": "60 мл",
+    "mediumDose": "180 мл",
+    "highDose": "250 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 455
+    }
+  },
+  {
+    "id": "pdf-456",
+    "name": "Чёрная фасоль варёная",
+    "group": "High",
+    "safeDose": "40 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "105 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 456
+    }
+  },
+  {
+    "id": "pdf-457",
+    "name": "Чернослив",
+    "group": "High",
+    "safeDose": "нет",
+    "mediumDose": "5 гр.",
+    "highDose": "30 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 457
+    }
+  },
+  {
+    "id": "pdf-458",
+    "name": "Чёрный перец",
+    "group": "Low",
+    "safeDose": "2 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 458
+    }
+  },
+  {
+    "id": "pdf-459",
+    "name": "Чёрный чай крепкий",
+    "group": "Medium",
+    "safeDose": "180 мл",
+    "mediumDose": "250 мл",
+    "highDose": "330 мл",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 459
+    }
+  },
+  {
+    "id": "pdf-460",
+    "name": "Чёрный чеснок",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 460
+    }
+  },
+  {
+    "id": "pdf-461",
+    "name": "Чеснок",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 461
+    }
+  },
+  {
+    "id": "pdf-462",
+    "name": "Чеснок гранулированный (сухой)",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 462
+    }
+  },
+  {
+    "id": "pdf-463",
+    "name": "Чесночное растительное масло",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 463
+    }
+  },
+  {
+    "id": "pdf-464",
+    "name": "Чечевица зелёная, варёная",
+    "group": "Low",
+    "safeDose": "29 гр.",
+    "mediumDose": "34 гр.",
+    "highDose": "46 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 464
+    }
+  },
+  {
+    "id": "pdf-465",
+    "name": "Чечевица консервированная",
+    "group": "Low",
+    "safeDose": "46 гр.",
+    "mediumDose": "65 гр.",
+    "highDose": "77 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 9,
+      "row": 465
+    }
+  },
+  {
+    "id": "pdf-466",
+    "name": "Чечевица красная варёная",
+    "group": "Medium",
+    "safeDose": "23 гр.",
+    "mediumDose": "46 гр.",
+    "highDose": "69 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 466
+    }
+  },
+  {
+    "id": "pdf-467",
+    "name": "Чечевичный суп",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 467
+    }
+  },
+  {
+    "id": "pdf-468",
+    "name": "Чуфа/миндаль земляной",
+    "group": "Low",
+    "safeDose": "20 гр.",
+    "mediumDose": "45 гр.",
+    "highDose": "50 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 468
+    }
+  },
+  {
+    "id": "pdf-469",
+    "name": "Шалфей",
+    "group": "Low",
+    "safeDose": "28 гр.",
+    "mediumDose": "52 гр.",
+    "highDose": "85 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 469
+    }
+  },
+  {
+    "id": "pdf-470",
+    "name": "Шампиньон",
+    "group": "High",
+    "safeDose": "5 гр.",
+    "mediumDose": "10 гр.",
+    "highDose": "37 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 470
+    }
+  },
+  {
+    "id": "pdf-471",
+    "name": "Шампиньон консервированный",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 471
+    }
+  },
+  {
+    "id": "pdf-472",
+    "name": "Шафран",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 472
+    }
+  },
+  {
+    "id": "pdf-473",
+    "name": "Шелуха мускатного ореха",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 473
+    }
+  },
+  {
+    "id": "pdf-474",
+    "name": "Шпинат английский",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 474
+    }
+  },
+  {
+    "id": "pdf-475",
+    "name": "Шпинат водяной",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "350 гр.",
+    "highDose": "500 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 475
+    }
+  },
+  {
+    "id": "pdf-476",
+    "name": "Шпинат молодой",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "150 гр.",
+    "highDose": "225 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 476
+    }
+  },
+  {
+    "id": "pdf-477",
+    "name": "Шрирача",
+    "group": "Low",
+    "safeDose": "5 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "20 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 477
+    }
+  },
+  {
+    "id": "pdf-478",
+    "name": "Энергетический батончик",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 478
+    }
+  },
+  {
+    "id": "pdf-479",
+    "name": "Эспрессо кофе",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 479
+    }
+  },
+  {
+    "id": "pdf-480",
+    "name": "Яблоки сушёные",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 480
+    }
+  },
+  {
+    "id": "pdf-481",
+    "name": "Яблоко зелёное",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "30 гр.",
+    "highDose": "165 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 481
+    }
+  },
+  {
+    "id": "pdf-482",
+    "name": "Яблоко зелёное, очищенное",
+    "group": "High",
+    "safeDose": "25 гр.",
+    "mediumDose": "27 гр.",
+    "highDose": "165 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 482
+    }
+  },
+  {
+    "id": "pdf-483",
+    "name": "Яблоко красное",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "31 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 483
+    }
+  },
+  {
+    "id": "pdf-484",
+    "name": "Яблоко красное, очищенное",
+    "group": "High",
+    "safeDose": "20 гр.",
+    "mediumDose": "25 гр.",
+    "highDose": "200 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 484
+    }
+  },
+  {
+    "id": "pdf-485",
+    "name": "Яблочный сок",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 485
+    }
+  },
+  {
+    "id": "pdf-486",
+    "name": "Яблочный уксус",
+    "group": "Low",
+    "safeDose": "42 гр.",
+    "mediumDose": "84 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 486
+    }
+  },
+  {
+    "id": "pdf-487",
+    "name": "Ягоды годжи",
+    "group": "High",
+    "safeDose": "10 гр.",
+    "mediumDose": "15 гр.",
+    "highDose": "24 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 487
+    }
+  },
+  {
+    "id": "pdf-488",
+    "name": "Яичная лапша",
+    "group": "Medium",
+    "safeDose": "40 гр.",
+    "mediumDose": "80 гр.",
+    "highDose": "120 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 488
+    }
+  },
+  {
+    "id": "pdf-489",
+    "name": "Яйца куриные",
+    "group": "Low",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Без ограничений",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 489
+    }
+  },
+  {
+    "id": "pdf-490",
+    "name": "Ямс",
+    "group": "Low",
+    "safeDose": "75 гр.",
+    "mediumDose": "300 гр.",
+    "highDose": "350 гр.",
+    "combinedDose": null,
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 490
+    }
+  },
+  {
+    "id": "pdf-491",
+    "name": "Ячменная мука",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 491
+    }
+  },
+  {
+    "id": "pdf-492",
+    "name": "Ячменные хлопья",
+    "group": "High",
+    "safeDose": null,
+    "mediumDose": null,
+    "highDose": null,
+    "combinedDose": "Безопасной дозы нет",
+    "aliases": [],
+    "note": "",
+    "source": {
+      "document": "low-fodmap-table.pdf",
+      "page": 10,
+      "row": 492
+    }
+  }
+]

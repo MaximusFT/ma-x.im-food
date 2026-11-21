@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket, Leaf } from 'lucide-react';
+import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket, Leaf, TableProperties } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { BasketProvider, useBasket } from './BasketProvider';
 
@@ -10,9 +10,11 @@ const navigation = [
   { href: '/current-menu', label: 'Меню', icon: ClipboardList },
   { href: '/days', label: 'Дни', icon: CalendarDays },
   { href: '/fodmap', label: 'FODMAP', icon: Leaf },
+  { href: '/food-table', label: 'Таблица', icon: TableProperties },
   { href: '/basket', label: 'Корзина', icon: ShoppingBasket },
   { href: '/shopping', label: 'Покупки', icon: CheckSquare2 },
 ];
+const mobileNavigation = navigation.filter((item) => item.href !== '/food-table');
 
 function NavigationShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -27,6 +29,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
             <span className="h-5 w-px bg-gray-300" aria-hidden="true" />
             <span className="text-sm font-semibold text-[#15803d]">рецепты</span>
           </Link>
+          <Link href="/food-table" className={`inline-flex min-h-11 items-center gap-2 rounded-xl px-3 text-sm font-semibold lg:hidden ${pathname === '/food-table' ? 'bg-gray-950 text-white' : 'bg-green-50 text-[#15803d]'}`}><TableProperties size={18} />Таблица</Link>
           <nav className="hidden items-center gap-2 lg:flex" aria-label="Основная навигация">
             {navigation.map((item) => {
               const active = item.href === '/' ? pathname === '/' || pathname.startsWith('/recipes/') : pathname === item.href;
@@ -35,7 +38,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`relative inline-flex min-h-11 items-center gap-2 rounded-xl px-4 text-sm font-semibold transition ${
+                  className={`relative inline-flex min-h-11 items-center gap-2 rounded-xl px-3 text-sm font-semibold transition ${
                     active ? 'bg-gray-950 text-white' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-950'
                   }`}
                 >
@@ -60,7 +63,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
         aria-label="Мобильная навигация"
       >
         <div className="mx-auto grid max-w-lg grid-cols-6">
-          {navigation.map((item) => {
+          {mobileNavigation.map((item) => {
             const active = item.href === '/' ? pathname === '/' || pathname.startsWith('/recipes/') : pathname === item.href;
             const Icon = item.icon;
             return (
