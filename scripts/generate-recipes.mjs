@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fodmapRecipes } from '../content/fodmap/catalog.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDirectory = path.join(projectRoot, 'content', 'approved');
@@ -241,6 +242,7 @@ async function generateRecipes() {
     }
   }
 
+  recipes.push(...fodmapRecipes);
   await mkdir(outputDirectory, { recursive: true });
   await writeFile(outputFile, `${JSON.stringify(recipes, null, 2)}\n`, 'utf8');
   console.log(`Generated ${recipes.length} recipes → ${path.relative(projectRoot, outputFile)}`);

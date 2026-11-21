@@ -28,7 +28,7 @@ type ProductFilterOption = {
   featured: boolean;
 };
 
-const categories: CategoryFilter[] = ['Все', 'Завтраки', 'Обеды', 'Ужины', 'Десерты'];
+const categories: CategoryFilter[] = ['Все', 'Завтраки', 'Обеды', 'Ужины', 'Перекусы', 'Десерты', 'Соусы', 'Хлеб'];
 const methodOptions: CookingMethod[] = [
   'Только чаша',
   'Только Thermomix',
@@ -39,10 +39,10 @@ const methodOptions: CookingMethod[] = [
 ];
 
 const featuredProductFilters: Array<Omit<ProductFilterOption, 'count' | 'featured'>> = [
-  { id: 'chicken', label: 'Курица', productIds: ['chicken-thigh'] },
+  { id: 'chicken', label: 'Курица', productIds: ['chicken-thigh', 'chicken-breast'] },
   { id: 'turkey', label: 'Индейка', productIds: ['turkey-fillet'] },
   { id: 'beef', label: 'Говядина', productIds: ['beef-mince'] },
-  { id: 'fish', label: 'Рыба', productIds: ['cod-fillet', 'gilthead'] },
+  { id: 'fish', label: 'Рыба', productIds: ['cod-fillet', 'gilthead', 'salmon', 'tuna'] },
   { id: 'eggs', label: 'Яйца', productIds: ['eggs'] },
   { id: 'cheese', label: 'Сыр', productIds: ['fresh-curd-cheese'] },
   { id: 'curd', label: 'Творог', productIds: ['lactose-free-curd', 'curd-product'] },

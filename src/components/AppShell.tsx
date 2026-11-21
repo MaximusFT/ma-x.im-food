@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket } from 'lucide-react';
+import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket, Leaf } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { BasketProvider, useBasket } from './BasketProvider';
 
@@ -9,6 +9,7 @@ const navigation = [
   { href: '/', label: 'Рецепты', icon: BookOpen },
   { href: '/current-menu', label: 'Меню', icon: ClipboardList },
   { href: '/days', label: 'Дни', icon: CalendarDays },
+  { href: '/fodmap', label: 'FODMAP', icon: Leaf },
   { href: '/basket', label: 'Корзина', icon: ShoppingBasket },
   { href: '/shopping', label: 'Покупки', icon: CheckSquare2 },
 ];
@@ -58,7 +59,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
         className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 px-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-2 backdrop-blur-xl lg:hidden"
         aria-label="Мобильная навигация"
       >
-        <div className="mx-auto grid max-w-lg grid-cols-5">
+        <div className="mx-auto grid max-w-lg grid-cols-6">
           {navigation.map((item) => {
             const active = item.href === '/' ? pathname === '/' || pathname.startsWith('/recipes/') : pathname === item.href;
             const Icon = item.icon;
@@ -70,7 +71,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
                   active ? 'text-[#15803d]' : 'text-gray-500'
                 }`}
               >
-                <span className={`relative rounded-xl px-4 py-1 ${active ? 'bg-green-50' : ''}`}>
+                <span className={`relative rounded-xl px-2 py-1 ${active ? 'bg-green-50' : ''}`}>
                   <Icon size={21} />
                   {item.href === '/basket' && basket.length > 0 && (
                     <span className="absolute -right-0.5 -top-1 inline-flex min-w-4 items-center justify-center rounded-full bg-[#22c55e] px-1 text-[10px] leading-4 text-white">

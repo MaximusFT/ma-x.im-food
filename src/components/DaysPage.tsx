@@ -4,7 +4,8 @@ import type { RecipeCategory } from '@/data/types';
 import { RecipeCard } from './RecipeCard';
 
 const categoryOrder: RecipeCategory[] = ['Завтраки', 'Обеды', 'Ужины', 'Десерты'];
-const days = [...new Set(recipes.map((recipe) => recipe.day))].sort((left, right) => left - right);
+const originalRecipes = recipes.filter((recipe) => !recipe.collection);
+const days = [...new Set(originalRecipes.map((recipe) => recipe.day))].sort((left, right) => left - right);
 
 export function DaysPage() {
   return (
@@ -35,7 +36,7 @@ export function DaysPage() {
 
       <div className="mt-10 space-y-16">
         {days.map((day) => {
-          const dayRecipes = recipes
+          const dayRecipes = originalRecipes
             .filter((recipe) => recipe.day === day)
             .sort((left, right) => categoryOrder.indexOf(left.category) - categoryOrder.indexOf(right.category));
 

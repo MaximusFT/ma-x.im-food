@@ -1,4 +1,4 @@
-export type RecipeCategory = 'Завтраки' | 'Обеды' | 'Ужины' | 'Десерты';
+export type RecipeCategory = 'Завтраки' | 'Обеды' | 'Ужины' | 'Десерты' | 'Перекусы' | 'Соусы' | 'Хлеб';
 export type CookingMethod =
   | 'Thermomix'
   | 'Varoma'
@@ -40,4 +40,10 @@ export type Recipe = {
   nutritionNote?: string;
   status: 'approved' | 'testing';
   source: string;
+  collection?: 'fodmap';
+  menu?: 'document' | 'variety' | 'extras';
+  meal?: string;
+  nutrition?: { kcal: number; protein: number; fat: number; carbs: number };
+  portionWeight?: string;
+  batchNote?: string;
 };

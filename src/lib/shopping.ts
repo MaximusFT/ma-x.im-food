@@ -38,7 +38,8 @@ export function aggregateShoppingList(basket: BasketItem[], recipes: Recipe[]) {
 
     for (const ingredient of recipe.ingredients) {
       if (!ingredient.includeInShopping) continue;
-      const key = ingredient.productId;
+      // Keep incompatible units on separate rows (e.g. milk in g and ml).
+      const key = `${ingredient.productId}:${ingredient.unit ?? 'quantity'}`;
       const existing = items.get(key);
       const scaledAmount = ingredient.amount === null ? null : ingredient.amount * ratio;
 
@@ -68,7 +69,12 @@ export function aggregateShoppingList(basket: BasketItem[], recipes: Recipe[]) {
     }
   }
 
-  return [...items.values()].sort((left, right) => {
+  const rows = [...items.values()];
+  const unitCounts = new Map<string, number>();
+  for (const row of rows) unitCounts.set(row.productId, (unitCounts.get(row.productId) ?? 0) + 1);
+  // Preserve existing checked-item keys when a product uses just one unit.
+  for (const row of rows) if (unitCounts.get(row.productId) === 1) row.key = row.productId;
+  return rows.sort((left, right) => {
     const groupDifference = shoppingGroupOrder.indexOf(left.group) - shoppingGroupOrder.indexOf(right.group);
     return groupDifference || left.name.localeCompare(right.name, 'ru');
   });

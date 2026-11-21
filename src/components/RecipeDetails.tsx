@@ -20,11 +20,11 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
   return (
     <div className="mx-auto max-w-7xl px-5 py-8 lg:px-8 lg:py-14">
       <Link
-        href="/"
+        href={recipe.collection ? '/fodmap' : '/'}
         className="inline-flex min-h-11 items-center gap-2 rounded-xl text-sm font-semibold text-gray-600 transition hover:text-gray-950"
       >
         <ArrowLeft size={18} />
-        Все рецепты
+        {recipe.collection ? 'Раздел FODMAP' : 'Все рецепты'}
       </Link>
 
       <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1.45fr)_minmax(21rem,0.7fr)] lg:gap-14">
@@ -33,21 +33,24 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             <span className="rounded-full bg-green-50 px-3 py-1.5 text-xs font-semibold text-[#15803d]">
               {recipe.category}
             </span>
-            <span className="rounded-full bg-gray-100 px-3 py-1.5 text-xs font-semibold text-gray-600">
-              {recipe.status === 'approved' ? 'Одобрено' : 'На проверке'}
-            </span>
+            <span className="rounded-full bg-gray-100 px-3 py-1.5 text-xs font-semibold text-gray-600">{recipe.status === 'testing' ? 'Пробный рецепт' : 'Одобрено'}</span>
           </div>
 
           <h1 className="mt-5 max-w-4xl text-4xl font-medium leading-tight tracking-tight text-gray-950 sm:text-5xl">
             {recipe.title}
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-gray-600">{recipe.description}</p>
+          {recipe.nutrition && <div className="mt-6 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
+            <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
+            <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
+            {recipe.batchNote && <p className="mt-2">{recipe.batchNote}</p>}
+          </div>}
 
           <div className="mt-8 flex flex-wrap gap-3">
             {recipe.totalMinutes !== null && (
               <div className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700">
                 <Clock3 size={18} className="text-[#16a34a]" />
-                {recipe.totalMinutes} минут
+                {recipe.totalMinutes} минут всего{recipe.activeMinutes !== null && ` · ${recipe.activeMinutes} минут активно`}
               </div>
             )}
             <div className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700">
@@ -99,10 +102,12 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
                 </li>
               ))}
             </ul>
+            {recipe.collection && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются, режимы приготовления — для базовых 2 порций. Больший объём готовьте партиями; не превышайте отметку MAX 2,2 л. Яйца в штуках при необходимости взбейте и отмерьте по массе: 1 яйцо ≈ 50 г без скорлупы.</p>}
           </section>
 
           <section className="mt-12">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Шаг за шагом</p>
+            <p className="mb-4 mt-3 text-sm leading-6 text-gray-600">Оборудование: {recipe.equipment.join(' · ')}</p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-950">Приготовление</h2>
             <ol className="mt-7 space-y-5">
               {recipe.steps.map((step, index) => (

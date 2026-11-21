@@ -52,9 +52,14 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
             </div>
             <h1 id="recipe-modal-title" className="mt-5 text-3xl font-medium leading-tight tracking-tight text-gray-950 sm:text-5xl">{recipe.title}</h1>
             <p className="mt-4 max-w-3xl text-base leading-7 text-gray-600 sm:text-lg">{recipe.description}</p>
+            {recipe.nutrition && <div className="mt-5 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
+              <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
+              <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
+              {recipe.batchNote && <p className="mt-2">{recipe.batchNote}</p>}
+            </div>}
 
             <div className="mt-7 flex flex-wrap gap-3">
-              {recipe.totalMinutes !== null && <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Clock3 size={18} className="text-[#16a34a]" />{recipe.totalMinutes} минут</span>}
+              {recipe.totalMinutes !== null && <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Clock3 size={18} className="text-[#16a34a]" />{recipe.totalMinutes} минут всего{recipe.activeMinutes !== null && ` · ${recipe.activeMinutes} минут активно`}</span>}
               <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Users size={18} className="text-[#16a34a]" />{servings} порц.</span>
               <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><ChefHat size={18} className="text-[#16a34a]" />{recipe.equipment.slice(0, 2).join(' · ')}</span>
             </div>
@@ -71,10 +76,12 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
               <ul className="divide-y divide-gray-100">
                 {recipe.ingredients.map((item, index) => <li key={`${item.productId}-${index}`} className="flex items-start justify-between gap-5 py-4"><span className="text-gray-800">{item.name}</span><strong className="shrink-0 text-gray-950">{formatIngredientQuantity(item, servings, recipe.servings)}</strong></li>)}
               </ul>
+              {recipe.collection && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются; режимы указаны для базовых 2 порций. Больший объём готовьте партиями. Не превышайте MAX 2,2 л. Одно яйцо ≈ 50 г без скорлупы; дробное количество можно отмерить после взбивания.</p>}
             </section>
 
             <section className="mt-10">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#15803d]">Шаг за шагом</p>
+              <p className="mb-3 mt-3 text-sm leading-6 text-gray-600">Оборудование: {recipe.equipment.join(' · ')}</p>
               <h2 className="mt-2 text-2xl font-semibold tracking-tight text-gray-950 sm:text-3xl">Приготовление</h2>
               <ol className="mt-6 space-y-5">
                 {recipe.steps.map((step, index) => <li key={step} className="grid grid-cols-[2.5rem_1fr] gap-4 leading-7 text-gray-700"><span className="flex size-10 items-center justify-center rounded-full bg-gray-950 text-sm font-semibold text-white">{index + 1}</span><p className="pt-1.5">{step}</p></li>)}
@@ -86,7 +93,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
                 ['Хранение', recipe.storage],
                 ['Замены', recipe.substitutions],
                 ['Переносимость', recipe.tolerance],
-                ...(recipe.nutritionNote ? [['Пищевая ценность', recipe.nutritionNote]] : []),
+                ...(recipe.nutritionNote && !recipe.nutrition ? [['Пищевая ценность', recipe.nutritionNote]] : []),
               ].map(([title, text]) => <div key={title} className="rounded-3xl border border-gray-200 p-5"><h2 className="text-sm font-semibold text-gray-950">{title}</h2><p className="mt-2 text-sm leading-6 text-gray-600">{text}</p></div>)}
             </section>
           </article>
