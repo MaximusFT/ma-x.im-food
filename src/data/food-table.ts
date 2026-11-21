@@ -27,3 +27,11 @@ export function matchesFoodSearch(product: FoodTableProduct, query: string) {
     product.combinedDose ?? '', product.note,
   ].join(' ')).includes(normalized);
 }
+
+export function filterFoodProducts(products: FoodTableProduct[], query: string, lowOnly: boolean, unrestrictedOnly: boolean) {
+  return products.filter((product) =>
+    matchesFoodSearch(product, query) &&
+    (!lowOnly || product.group === 'Low') &&
+    (!unrestrictedOnly || normalizeFoodSearch(product.combinedDose ?? '') === 'без ограничений'),
+  );
+}

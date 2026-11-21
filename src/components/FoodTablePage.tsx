@@ -1,8 +1,8 @@
 'use client';
 
-import { Search, TableProperties, X } from 'lucide-react';
+import { Check, Search, TableProperties, X } from 'lucide-react';
 import { useState } from 'react';
-import { foodTableProducts, matchesFoodSearch, type FoodTableProduct } from '@/data/food-table';
+import { foodTableProducts, filterFoodProducts, type FoodTableProduct } from '@/data/food-table';
 
 const badgeColors = {
   Low: 'bg-green-50 text-green-800 ring-green-200',
@@ -16,7 +16,11 @@ function GroupBadge({ group }: { group: FoodTableProduct['group'] }) {
 
 export function FoodTablePage() {
   const [query, setQuery] = useState('');
-  const visible = foodTableProducts.filter((product) => matchesFoodSearch(product, query));
+  const [lowOnly, setLowOnly] = useState(false);
+  const [unrestrictedOnly, setUnrestrictedOnly] = useState(false);
+  const visible = filterFoodProducts(foodTableProducts, query, lowOnly, unrestrictedOnly);
+  const hasFilters = Boolean(query.trim() || lowOnly || unrestrictedOnly);
+  const resetFilters = () => { setQuery(''); setLowOnly(false); setUnrestrictedOnly(false); };
 
   return <div className="mx-auto max-w-7xl px-5 py-10 lg:px-8 lg:py-16">
     <div className="max-w-3xl">
@@ -41,7 +45,16 @@ export function FoodTablePage() {
         <input id="food-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Найти продукт, например: рис" autoComplete="off" spellCheck={false} className="min-h-14 min-w-0 flex-1 bg-transparent py-3 text-base outline-none [&::-webkit-search-cancel-button]:hidden" />
         {query && <button type="button" aria-label="Очистить поиск" onClick={() => setQuery('')} className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl text-gray-500 hover:bg-gray-100"><X size={20} /></button>}
       </div>
-      <p role="status" className="mt-3 text-sm text-gray-500">{query.trim() ? `Найдено ${visible.length} из ${foodTableProducts.length}` : `Все продукты: ${foodTableProducts.length}`}</p>
+      <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Фильтры продуктов">
+        {[
+          { label: 'Только Low', active: lowOnly, toggle: () => setLowOnly((value) => !value) },
+          { label: 'Без ограничений', active: unrestrictedOnly, toggle: () => setUnrestrictedOnly((value) => !value) },
+        ].map(({ label, active, toggle }) => <button key={label} type="button" aria-pressed={active} onClick={toggle} className={`inline-flex min-h-11 items-center gap-2 rounded-xl border px-3 text-sm font-semibold transition ${active ? 'border-green-300 bg-green-50 text-green-800' : 'border-gray-200 bg-white text-gray-600 hover:border-green-300'}`}>
+          {active && <Check size={16} aria-hidden="true" />}{label}
+        </button>)}
+        {hasFilters && <button type="button" onClick={resetFilters} className="min-h-11 rounded-xl px-3 text-sm font-semibold text-gray-500 hover:bg-gray-100">Сбросить всё</button>}
+      </div>
+      <p role="status" className="mt-3 text-sm text-gray-500">{hasFilters ? `Найдено ${visible.length} из ${foodTableProducts.length}` : `Все продукты: ${foodTableProducts.length}`}</p>
     </div>
 
     <div className="mt-3 hidden overflow-x-auto rounded-3xl border border-gray-200 bg-white md:block">
@@ -80,6 +93,6 @@ export function FoodTablePage() {
       </article>)}
     </div>
 
-    {visible.length === 0 && <div className="mt-4 rounded-3xl border border-dashed border-gray-300 px-5 py-12 text-center"><p className="text-lg font-semibold text-gray-900">Ничего не найдено</p><p className="mt-2 text-gray-500">Попробуйте более короткое слово или другую часть названия.</p><button type="button" onClick={() => setQuery('')} className="mt-5 min-h-11 rounded-xl bg-gray-950 px-5 text-sm font-semibold text-white">Показать всю таблицу</button></div>}
+    {visible.length === 0 && <div className="mt-4 rounded-3xl border border-dashed border-gray-300 px-5 py-12 text-center"><p className="text-lg font-semibold text-gray-900">Ничего не найдено</p><p className="mt-2 text-gray-500">Измените запрос или выключите фильтры.</p><button type="button" onClick={resetFilters} className="mt-5 min-h-11 rounded-xl bg-gray-950 px-5 text-sm font-semibold text-white">Показать всю таблицу</button></div>}
   </div>;
 }
