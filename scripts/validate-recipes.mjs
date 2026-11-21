@@ -28,6 +28,7 @@ for (const recipe of recipes) {
   if (!['Завтраки', 'Обеды', 'Ужины', 'Десерты', 'Перекусы', 'Соусы', 'Хлеб'].includes(recipe.category)) errors.push(`Некорректная категория: ${recipe.title}`);
   if (!Number.isInteger(recipe.servings) || recipe.servings < 1) errors.push(`Некорректные порции: ${recipe.title}`);
   if (!Number.isFinite(recipe.totalMinutes) || recipe.totalMinutes < 1) errors.push(`Не распознано общее время: ${recipe.title}`);
+  if (recipe.activeMinutes !== null && recipe.activeMinutes > recipe.totalMinutes) errors.push(`Активное время больше общего: ${recipe.title}`);
   if (!Array.isArray(recipe.steps) || recipe.steps.length === 0) errors.push(`Нет шагов: ${recipe.title}`);
   if (!Array.isArray(recipe.ingredients) || recipe.ingredients.length === 0) errors.push(`Нет ингредиентов: ${recipe.title}`);
   if (!Array.isArray(recipe.methods) || recipe.methods.length === 0) errors.push(`Нет способов приготовления: ${recipe.title}`);
