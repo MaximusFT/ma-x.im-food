@@ -6,8 +6,16 @@ import type { Recipe } from '@/data/types';
 import { formatIngredientQuantity } from '@/lib/format';
 import { useBasket } from './BasketProvider';
 import { RecipeNutrition } from './RecipeNutrition';
+import { RecipeScaleControl } from './RecipeScaleControl';
+import { formatScale } from '@/lib/scaling';
 
 export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () => void }) {
+  const { hydrated } = useBasket();
+  if (!hydrated) return <div className="min-h-40" aria-busy="true" />;
+  return <RecipeModalContent key={recipe.id} recipe={recipe} onClose={onClose} />;
+}
+
+function RecipeModalContent({ recipe, onClose }: { recipe: Recipe; onClose: () => void }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
   const basketItem = basket.find((item) => item.recipeId === recipe.id);
   const [servings, setServings] = useState(basketItem?.servings ?? recipe.servings);
@@ -57,23 +65,23 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
 
             <div className="mt-7 flex flex-wrap gap-3">
               {recipe.totalMinutes !== null && <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Clock3 size={18} className="text-[#16a34a]" />{recipe.totalMinutes} минут всего{recipe.activeMinutes !== null && ` · ${recipe.activeMinutes} минут активно`}</span>}
-              <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Users size={18} className="text-[#16a34a]" />{servings} порц.</span>
+              <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Users size={18} className="text-[#16a34a]" />{formatScale(servings)} порц.</span>
               <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><ChefHat size={18} className="text-[#16a34a]" />{recipe.equipment.slice(0, 2).join(' · ')}</span>
             </div>
 
             <section className="mt-10">
-              <div className="flex items-end justify-between gap-4 border-b border-gray-200 pb-4">
+              <div className="flex flex-wrap items-end justify-between gap-4 border-b border-gray-200 pb-4">
                 <div><p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#15803d]">Подготовьте</p><h2 className="mt-2 text-2xl font-semibold tracking-tight text-gray-950 sm:text-3xl">Ингредиенты</h2></div>
                 <div className="flex items-center rounded-2xl border border-gray-200 p-1" aria-label="Количество порций">
-                  <button type="button" onClick={() => setServings((value) => Math.max(1, value - 1))} disabled={servings <= 1} className="flex size-10 items-center justify-center rounded-xl text-gray-600 hover:bg-gray-100 disabled:opacity-30" aria-label="Уменьшить количество порций"><Minus size={17} /></button>
-                  <span className="min-w-16 text-center text-sm font-semibold">{servings}</span>
-                  <button type="button" onClick={() => setServings((value) => Math.min(12, value + 1))} disabled={servings >= 12} className="flex size-10 items-center justify-center rounded-xl text-gray-600 hover:bg-gray-100 disabled:opacity-30" aria-label="Увеличить количество порций"><Plus size={17} /></button>
+                  <button type="button" onClick={() => setServings((value) => Math.max(0.1, value - 1))} disabled={servings <= 0.1} className="flex size-10 items-center justify-center rounded-xl text-gray-600 hover:bg-gray-100 disabled:opacity-30" aria-label="Уменьшить количество порций"><Minus size={17} /></button>
+                  <span className="min-w-16 text-center text-sm font-semibold">{formatScale(servings)}</span>
+                  <button type="button" onClick={() => setServings((value) => value + 1)}  className="flex size-10 items-center justify-center rounded-xl text-gray-600 hover:bg-gray-100 disabled:opacity-30" aria-label="Увеличить количество порций"><Plus size={17} /></button>
                 </div>
               </div>
+              <RecipeScaleControl recipe={recipe} servings={servings} onChange={setServings} />
               <ul className="divide-y divide-gray-100">
                 {recipe.ingredients.map((item, index) => <li key={`${item.productId}-${index}`} className="flex items-start justify-between gap-5 py-4"><span className="text-gray-800">{item.name}</span><strong className="shrink-0 text-gray-950">{formatIngredientQuantity(item, servings, recipe.servings)}</strong></li>)}
               </ul>
-              {recipe.collection === 'fodmap' && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются; режимы указаны для базовых 2 порций. Больший объём готовьте партиями. Не превышайте MAX 2,2 л. Одно яйцо ≈ 50 г без скорлупы; дробное количество можно отмерить после взбивания.</p>}
             </section>
 
             <section className="mt-10">
@@ -97,7 +105,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
           <aside className="lg:sticky lg:top-8 lg:h-fit">
             <div className="rounded-3xl border border-gray-200 bg-gray-50 p-5 sm:p-6">
               <p className="font-semibold text-gray-950">Корзина и покупки</p>
-              <p className="mt-2 text-sm leading-6 text-gray-500">В списке покупок продукты будут рассчитаны для {servings} порц.</p>
+              <p className="mt-2 text-sm leading-6 text-gray-500">В списке покупок продукты будут рассчитаны для {formatScale(servings)} порц.</p>
               <button
                 type="button"
                 onClick={() => addRecipe(recipe.id, servings)}
@@ -105,7 +113,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
                 className={`mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl px-5 text-sm font-semibold transition ${isSaved ? 'cursor-default bg-green-50 text-[#15803d] ring-1 ring-inset ring-green-200' : 'bg-[#22c55e] text-white hover:bg-[#16a34a]'}`}
               >
                 {isSaved ? <Check size={19} /> : <ShoppingBasket size={19} />}
-                {isSaved ? `В корзине: ${servings} порц.` : savedServings ? `Обновить до ${servings} порц.` : `Добавить ${servings} порц.`}
+                {isSaved ? `В корзине: ${formatScale(servings)} порц.` : savedServings ? `Обновить до ${formatScale(servings)} порц.` : `Добавить ${formatScale(servings)} порц.`}
               </button>
               {savedServings && <button type="button" onClick={() => removeRecipe(recipe.id)} className="mt-2 min-h-11 w-full rounded-xl text-sm font-semibold text-gray-500 hover:bg-white hover:text-red-600">Удалить из корзины</button>}
             </div>

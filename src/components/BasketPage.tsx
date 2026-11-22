@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { ArrowRight, Minus, Plus, ShoppingBasket, Trash2 } from 'lucide-react';
+import { formatScale } from '@/lib/scaling';
 import { recipes } from '@/data/recipes';
 import { useBasket } from './BasketProvider';
 
@@ -59,24 +60,24 @@ export function BasketPage() {
               <Link href={`/recipes/${recipe.slug}`} className="mt-2 block text-xl font-semibold tracking-tight text-gray-950 hover:text-[#15803d]">
                 {recipe.title}
               </Link>
-              <p className="mt-2 text-sm text-gray-500">{recipe.totalMinutes ? `${recipe.totalMinutes} минут · ` : ''}{recipe.ingredients.length} ингредиентов</p>
+              <p className="mt-2 text-sm text-gray-500">{recipe.totalMinutes ? `${recipe.totalMinutes} минут · ` : ''}{recipe.ingredients.length} ингредиентов · закладка ×{formatScale(item.servings / recipe.servings)}</p>
             </div>
             <div className="flex items-center justify-between gap-3 sm:justify-end">
               <div className="flex items-center rounded-2xl border border-gray-200 p-1">
                 <button
                   type="button"
-                  onClick={() => setRecipeServings(recipe.id, Math.max(1, item.servings - 1))}
-                  disabled={item.servings <= 1}
+                  onClick={() => setRecipeServings(recipe.id, Math.max(0.1, item.servings - 1))}
+                  disabled={item.servings <= 0.1}
                   className="inline-flex size-10 items-center justify-center rounded-xl text-gray-600 transition hover:bg-gray-100 disabled:opacity-30"
                   aria-label={`Уменьшить порции для «${recipe.title}»`}
                 >
                   <Minus size={17} />
                 </button>
-                <span className="min-w-20 text-center text-sm font-semibold">{item.servings} порц.</span>
+                <span className="min-w-20 text-center text-sm font-semibold">{formatScale(item.servings)} порц.</span>
                 <button
                   type="button"
-                  onClick={() => setRecipeServings(recipe.id, Math.min(12, item.servings + 1))}
-                  disabled={item.servings >= 12}
+                  onClick={() => setRecipeServings(recipe.id, item.servings + 1)}
+
                   className="inline-flex size-10 items-center justify-center rounded-xl text-gray-600 transition hover:bg-gray-100 disabled:opacity-30"
                   aria-label={`Увеличить порции для «${recipe.title}»`}
                 >

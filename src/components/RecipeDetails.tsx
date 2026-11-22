@@ -7,16 +7,24 @@ import type { Recipe } from '@/data/types';
 import { formatIngredientQuantity } from '@/lib/format';
 import { useBasket } from './BasketProvider';
 import { RecipeNutrition } from './RecipeNutrition';
+import { RecipeScaleControl } from './RecipeScaleControl';
+import { formatScale } from '@/lib/scaling';
 
 export function RecipeDetails({ recipe }: { recipe: Recipe }) {
+  const { hydrated } = useBasket();
+  if (!hydrated) return <div className="min-h-40" aria-busy="true" />;
+  return <RecipeDetailsContent key={recipe.id} recipe={recipe} />;
+}
+
+function RecipeDetailsContent({ recipe }: { recipe: Recipe }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
   const basketItem = basket.find((item) => item.recipeId === recipe.id);
   const [servings, setServings] = useState(basketItem?.servings ?? recipe.servings);
   const isInBasket = Boolean(basketItem);
   const isSaved = basketItem?.servings === servings;
 
-  const decreaseServings = () => setServings((current) => Math.max(1, current - 1));
-  const increaseServings = () => setServings((current) => Math.min(12, current + 1));
+  const decreaseServings = () => setServings((current) => Math.max(0.1, current - 1));
+  const increaseServings = () => setServings((current) => current + 1);
 
   return (
     <div className="mx-auto max-w-7xl px-5 py-8 lg:px-8 lg:py-14">
@@ -61,7 +69,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
           </div>
 
           <section className="mt-12">
-            <div className="flex items-end justify-between gap-4 border-b border-gray-200 pb-5">
+            <div className="flex flex-wrap items-end justify-between gap-4 border-b border-gray-200 pb-5">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#15803d]">Подготовьте</p>
                 <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-950">Ингредиенты</h2>
@@ -71,17 +79,17 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
                   type="button"
                   onClick={decreaseServings}
                   className="inline-flex size-11 items-center justify-center rounded-xl text-gray-600 transition hover:bg-gray-100 disabled:opacity-40"
-                  disabled={servings <= 1}
+                  disabled={servings <= 0.1}
                   aria-label="Уменьшить количество порций"
                 >
                   <Minus size={18} />
                 </button>
-                <span className="min-w-20 text-center text-sm font-semibold">{servings} порц.</span>
+                <span className="min-w-20 text-center text-sm font-semibold">{formatScale(servings)} порц.</span>
                 <button
                   type="button"
                   onClick={increaseServings}
                   className="inline-flex size-11 items-center justify-center rounded-xl text-gray-600 transition hover:bg-gray-100 disabled:opacity-40"
-                  disabled={servings >= 12}
+
                   aria-label="Увеличить количество порций"
                 >
                   <Plus size={18} />
@@ -89,6 +97,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
               </div>
             </div>
 
+            <RecipeScaleControl recipe={recipe} servings={servings} onChange={setServings} />
             <ul className="divide-y divide-gray-100">
               {recipe.ingredients.map((ingredient, index) => (
                 <li key={`${ingredient.productId}-${index}`} className="flex items-start justify-between gap-5 py-4">
@@ -99,7 +108,6 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
                 </li>
               ))}
             </ul>
-            {recipe.collection === 'fodmap' && <p className="mt-4 text-sm leading-6 text-gray-600">Ингредиенты пересчитываются, режимы приготовления — для базовых 2 порций. Больший объём готовьте партиями; не превышайте отметку MAX 2,2 л. Яйца в штуках при необходимости взбейте и отмерьте по массе: 1 яйцо ≈ 50 г без скорлупы.</p>}
           </section>
 
           <section className="mt-12">
@@ -136,7 +144,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
           <div className="rounded-3xl border border-gray-200 bg-white p-5 shadow-xl shadow-gray-950/5 sm:p-6">
             <p className="text-sm font-semibold text-gray-950">Добавить в меню</p>
             <p className="mt-2 text-sm leading-6 text-gray-500">
-              Количество продуктов в покупках пересчитается для {servings} порций.
+              Количество продуктов в покупках пересчитается для {formatScale(servings)} порций.
             </p>
             <button
               type="button"
@@ -149,7 +157,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
               }`}
             >
               {isSaved ? <Check size={19} /> : <ShoppingBasket size={19} />}
-              {isSaved ? `В корзине: ${servings} порц.` : isInBasket ? `Обновить до ${servings} порц.` : `Добавить ${servings} порц.`}
+              {isSaved ? `В корзине: ${formatScale(servings)} порц.` : isInBasket ? `Обновить до ${formatScale(servings)} порц.` : `Добавить ${formatScale(servings)} порц.`}
             </button>
             {isInBasket && (
               <button

@@ -35,7 +35,7 @@ function readStoredState(): StoredState {
       version: 1,
       basket: parsed.basket.filter(
         (item): item is BasketItem =>
-          typeof item === 'object' && item !== null && typeof item.recipeId === 'string' && Number.isFinite(item.servings),
+          typeof item === 'object' && item !== null && typeof item.recipeId === 'string' && Number.isFinite(item.servings) && item.servings > 0,
       ),
       checkedShoppingItems: Array.isArray(parsed.checkedShoppingItems)
         ? parsed.checkedShoppingItems.filter((item): item is string => typeof item === 'string')
