@@ -21,6 +21,8 @@ export type Ingredient = {
   quantity: string;
 };
 
+export type NutritionValues = { kcal: number; protein: number; fat: number; carbs: number };
+
 export type Recipe = {
   id: string;
   slug: string;
@@ -45,7 +47,11 @@ export type Recipe = {
   collection?: 'fodmap' | 'home';
   menu?: 'document' | 'variety' | 'extras';
   meal?: string;
-  nutrition?: { kcal: number; protein: number; fat: number; carbs: number };
+  // Reference serving values retained only for planned daily totals.
+  nutrition?: NutritionValues;
+  nutritionTotal?: NutritionValues;
+  estimatedYieldGrams?: number;
+  nutritionVariations?: Array<{ title: string; additions: Ingredient[]; nutritionTotal: NutritionValues; estimatedYieldGrams: number }>;
   portionWeight?: string;
   batchNote?: string;
 };

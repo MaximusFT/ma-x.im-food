@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import type { Recipe } from '@/data/types';
 import { formatIngredientQuantity } from '@/lib/format';
 import { useBasket } from './BasketProvider';
+import { RecipeNutrition } from './RecipeNutrition';
 
 export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () => void }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
@@ -52,12 +53,7 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
             </div>
             <h1 id="recipe-modal-title" className="mt-5 text-3xl font-medium leading-tight tracking-tight text-gray-950 sm:text-5xl">{recipe.title}</h1>
             <p className="mt-4 max-w-3xl text-base leading-7 text-gray-600 sm:text-lg">{recipe.description}</p>
-            {!recipe.nutrition && recipe.batchNote && <p className="mt-5 rounded-2xl bg-gray-50 p-5 text-sm leading-6 text-gray-700">{recipe.batchNote}</p>}
-            {recipe.nutrition && <div className="mt-5 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
-              <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
-              <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
-              {recipe.batchNote && <p className="mt-2">{recipe.batchNote}</p>}
-            </div>}
+            <RecipeNutrition key={`${recipe.id}-${servings}`} recipe={recipe} servings={servings} />
 
             <div className="mt-7 flex flex-wrap gap-3">
               {recipe.totalMinutes !== null && <span className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 px-4 py-3 text-sm text-gray-700"><Clock3 size={18} className="text-[#16a34a]" />{recipe.totalMinutes} минут всего{recipe.activeMinutes !== null && ` · ${recipe.activeMinutes} минут активно`}</span>}
@@ -94,7 +90,6 @@ export function RecipeModal({ recipe, onClose }: { recipe: Recipe; onClose: () =
                 ['Хранение', recipe.storage],
                 ['Замены', recipe.substitutions],
                 ['Переносимость', recipe.tolerance],
-                ...(recipe.nutritionNote && !recipe.nutrition ? [['Пищевая ценность', recipe.nutritionNote]] : []),
               ].map(([title, text]) => <div key={title} className="rounded-3xl border border-gray-200 p-5"><h2 className="text-sm font-semibold text-gray-950">{title}</h2><p className="mt-2 text-sm leading-6 text-gray-600">{text}</p></div>)}
             </section>
           </article>

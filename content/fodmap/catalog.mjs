@@ -39,6 +39,7 @@ export const products = {
   psyllium: ['Псиллиум, шелуха', 6, 180, 0, 0, 0],
   sugar: ['Сахар', 6, 400, 0, 0, 100],
   cinnamon: ['Корица', 7, 247, 4, 1.2, 28],
+  cardamom: ['Кардамон молотый', 7, 311, 11, 7, 40],
   vanilla: ['Ванильный экстракт без сахара', 7, 288, 0, 0, 13],
   baking: ['Разрыхлитель', 6, 100, 0, 0, 25],
   banana: ['Банан плотный, не переспелый, очищенный', 1, 89, 1.1, 0.3, 20],
@@ -298,5 +299,52 @@ extra('fish-sauce','Лимонно-зелёная заправка к рыбе',
   `Смешать 10 секунд / скорость 3. ${tmCold} Соскрести со стенок. Такую малую порцию проще смешать венчиком в миске. Разделить пополам.`
 ],['Чаша TM6','Лопатка'],5,'Отдельная необязательная заправка на двоих; к основным блюдам автоматически не добавляется.','Лимон и горчица могут усиливать изжогу; при реакции заменить сок водой, горчицу убрать и пересчитать КБЖУ.');
 
-// Water and displayed nutrition are always computed from the final shopping quantities.
-// Keep this table exported so validation can independently recalculate the output.
+extra('strawberry-vanilla-pudding','Кремовый рисовый пудинг с клубникой, ванилью и кардамоном','Десерты',[
+  ['rice',30],['lactose-free-milk',175],['water',25],['sugar',11.25],['vanilla',1.3],['cinnamon',0.325],['cardamom',0.05],['salt',0.075],['butter',2.5],['strawberry',37.5],['lemon',1.25],
+],[
+  'На двоих: исходную закладку на 3–4 порции уменьшили вдвое. Промыть 60 г круглого риса. Положить в чашу рис, 350 мл молока без лактозы, 50 г воды, 15 г сахара и маленькую щепотку соли. Сахар для соуса — отдельно, 7,5 г из общего количества.',
+  'Готовить 35 минут / 90 °C / обратное вращение / скорость 1. Мерный стаканчик снят, корзинка на крышке. Добавить 2,5 г ванильного экстракта, около 0,65 г корицы, маленькую щепотку кардамона и 5 г безлактозного масла. Продолжить 5 минут / 90 °C / обратное вращение / скорость 1, корзинка вместо стаканчика. Проверить мягкость риса, при необходимости продлить на 3–5 минут.',
+  'Дать постоять 10 минут. Если слишком густо, добавить немного тёплого безлактозного молока и перемешать лопаткой. Дополнительное молоко не включено в расчёт. Переложить пудинг в миску, чашу вымыть: соус готовится в том же TM6 после пудинга.',
+  'Соус: положить в чистую чашу 75 г клубники, 7,5 г сахара, 2,5 г лимонного сока и щепотку ванили. Готовить 5 минут / 80 °C / скорость 1 / обычное вращение, мерный стаканчик установлен. Для замороженных ягод соблюдать требование тепловой обработки на упаковке; если требуется кипячение, довести соус до 100 °C с корзинкой вместо стаканчика и выдержать указанное производителем время.',
+  'Для гладкого соуса остудить его до 60 °C и измельчить 10 секунд / скорость 5 / обычное вращение / без нагрева, мерный стаканчик установлен. При желании оставить ягоды кусочками. Дать соусу остыть до комфортной температуры.',
+  'Выложить пудинг и соус в две креманки. Для подсчёта на 100 г взвесить весь готовый десерт вместе с соусом, без посуды. Начать можно с 150–180 г, оставшуюся часть быстро охладить. Шоколад и кокосовое молоко — отдельные варианты, не обязательные ингредиенты.',
+],['Чаша TM6','Корзинка на крышку','Лопатка','Миска','Две креманки'],70,'Новый пудинг на двоих: ваниль, корица, кардамон и отдельный клубничный соус. Сахар взят по верхней границе исходника. Для молока 1 мл приближённо принят за 1 г; марки продуктов могут менять расчёт.','Порция клубники, молоко, специи и лимон оцениваются по переносимости; при изжоге лимон можно заменить водой. Это адаптация для пробы, не лабораторно проверенный Low FODMAP-продукт.');
+
+// Display uses recipe totals and explicit assumed cooked yields. The original
+// per-serving nutrition field is retained only for existing daily menu totals.
+const nutrientKeys = ['kcal','protein','fat','carbs'];
+const batchTotal = (ingredients) => ingredients.reduce((sum, i) => {
+  const factor = i.productId === 'eggs' ? i.amount * 0.5 : i.amount / 100;
+  return Object.fromEntries(nutrientKeys.map((key, n) => [key, sum[key] + products[i.productId][n+2] * factor]));
+}, {kcal:0,protein:0,fat:0,carbs:0});
+const mass = (ingredients) => ingredients.reduce((sum,i) => sum + i.amount * (i.productId === 'eggs' ? 50 : 1),0);
+
+for (const r of fodmapRecipes) {
+  r.nutritionTotal = batchTotal(r.ingredients);
+  if (r.menu !== 'extras') {
+    const source = raw.find((item, i) => `fodmap-${item.menu}-${item.day}-${i+1}` === r.id);
+    let approximate = Number(r.portionWeight.match(/около (\d+) г/)?.[1]) * 2;
+    if (source.kind === 'porridge') approximate = mass(r.ingredients) * 0.95;
+    if (source.kind === 'sorbet') approximate = mass(r.ingredients);
+    r.estimatedYieldGrams = Math.max(10,Math.round(approximate / 10)*10);
+  } else {
+    const retained = r.category === 'Хлеб' ? 0.9 : r.id.includes('fish-sauce') ? 1 : 0.95;
+    r.estimatedYieldGrams = Math.max(10,Math.round(mass(r.ingredients)*retained/10)*10);
+  }
+  r.description = r.description.replace('с приблизительным расчётом на одного','с приблизительными КБЖУ на 100 г').replace('КБЖУ на карточке — за половину буханки, не за ломтик. ','');
+  r.batchNote = r.batchNote.replace('КБЖУ на карточке — за половину буханки, не за ломтик. ','');
+  r.portionWeight = `Условный выход всей базовой закладки — ${r.estimatedYieldGrams} г; фактическую массу готового блюда нужно взвесить.`;
+  r.nutritionNote = 'Расчёт приблизительный, по справочным значениям продуктов. Фактические бренды, выпаривание воды и потери жира при готовке могут изменить результат.';
+}
+
+const strawberryPudding = fodmapRecipes.find((r) => r.id === 'fodmap-extra-strawberry-vanilla-pudding');
+strawberryPudding.storage = riceStorage;
+strawberryPudding.batchNote = 'Базовая закладка на двоих; клубничный соус включён в расчёт. Шоколад и кокосовое молоко считаются отдельно.';
+strawberryPudding.nutritionVariations = [
+  {title:'Клубника, корица и тёмный шоколад',additions:[ingredient(['chocolate',5])]},
+  {title:'Клубника и кокосовое молоко',additions:[ingredient(['coconut',15])]},
+].map((variant) => {
+  const additionTotals = batchTotal(variant.additions);
+  return {...variant,nutritionTotal:Object.fromEntries(nutrientKeys.map((key) => [key,strawberryPudding.nutritionTotal[key]+additionTotals[key]])),estimatedYieldGrams:strawberryPudding.estimatedYieldGrams+mass(variant.additions)};
+});
+strawberryPudding.substitutions = 'Первый вариант — базовый: ваниль, корица и кардамон. Второй — добавить 10 г тёмного шоколада на всю закладку. Третий — добавить 30 г консервированного кокосового молока на всю закладку; порцию и состав проверять отдельно. Добавки не включены в базовые покупки и основной расчёт. Лимон при непереносимости заменить 2,5 г воды.';

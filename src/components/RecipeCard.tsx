@@ -4,11 +4,13 @@ import Link from 'next/link';
 import { Check, ChevronRight, Clock3, ShoppingBasket } from 'lucide-react';
 import type { Recipe } from '@/data/types';
 import { useBasket } from './BasketProvider';
+import { formatNutrition, recipeNutritionPer100g } from '@/lib/nutrition';
 
 export function RecipeCard({ recipe, onOpen }: { recipe: Recipe; onOpen?: () => void }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
   const isSelected = basket.some((item) => item.recipeId === recipe.id);
   const usefulMethods = recipe.methods.filter((method) => method !== 'Thermomix').slice(0, 3);
+  const per100 = recipeNutritionPer100g(recipe);
 
   return (
     <article className="group flex min-h-80 flex-col rounded-3xl border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-green-200 hover:shadow-lg hover:shadow-green-950/5 sm:p-6">
@@ -32,7 +34,7 @@ export function RecipeCard({ recipe, onOpen }: { recipe: Recipe; onOpen?: () => 
         </h3>
       </Link>}
       <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-600">{recipe.description}</p>
-      {recipe.nutrition && <p className="mt-3 text-sm font-semibold text-[#15803d]">≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · {recipe.category === 'Хлеб' ? 'на половину буханки' : 'на человека'}</p>}
+      {per100 && <><p className="mt-3 text-sm font-semibold leading-6 text-[#15803d]">На 100 г: {formatNutrition(per100)}</p><p className="mt-1 text-sm text-gray-500">При ориентировочном выходе {recipe.estimatedYieldGrams} г</p></>}
       {recipe.collection === 'fodmap' && <p className="mt-2 text-sm text-gray-500">На двоих · пробный рецепт</p>}
       {recipe.collection === 'home' && <p className="mt-2 text-sm text-gray-500">{recipe.portions}</p>}
 

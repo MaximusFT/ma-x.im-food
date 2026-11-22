@@ -6,6 +6,7 @@ import { useState } from 'react';
 import type { Recipe } from '@/data/types';
 import { formatIngredientQuantity } from '@/lib/format';
 import { useBasket } from './BasketProvider';
+import { RecipeNutrition } from './RecipeNutrition';
 
 export function RecipeDetails({ recipe }: { recipe: Recipe }) {
   const { basket, addRecipe, removeRecipe } = useBasket();
@@ -40,12 +41,7 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
             {recipe.title}
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-gray-600">{recipe.description}</p>
-          {!recipe.nutrition && recipe.batchNote && <p className="mt-5 rounded-2xl bg-gray-50 p-5 text-sm leading-6 text-gray-700">{recipe.batchNote}</p>}
-          {recipe.nutrition && <div className="mt-6 rounded-2xl bg-green-50 p-5 text-sm leading-6 text-gray-700">
-            <p className="font-semibold">{recipe.category === 'Хлеб' ? 'На половину буханки' : 'На одного человека'}: ≈ {recipe.nutrition.kcal} ккал · Б {recipe.nutrition.protein} г · Ж {recipe.nutrition.fat} г · У {recipe.nutrition.carbs} г</p>
-            <p>{recipe.portionWeight}</p><p>{recipe.nutritionNote}</p>
-            {recipe.batchNote && <p className="mt-2">{recipe.batchNote}</p>}
-          </div>}
+          <RecipeNutrition key={`${recipe.id}-${servings}`} recipe={recipe} servings={servings} />
 
           <div className="mt-8 flex flex-wrap gap-3">
             {recipe.totalMinutes !== null && (
@@ -127,7 +123,6 @@ export function RecipeDetails({ recipe }: { recipe: Recipe }) {
               ['Хранение', recipe.storage],
               ['Замены', recipe.substitutions],
               ['Переносимость', recipe.tolerance],
-              ...(recipe.nutritionNote ? [['Пищевая ценность', recipe.nutritionNote]] : []),
             ].map(([title, content]) => (
               <div key={title} className="rounded-3xl border border-gray-200 bg-white p-5">
                 <h2 className="text-sm font-semibold text-gray-950">{title}</h2>

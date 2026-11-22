@@ -39,7 +39,7 @@ export function FodmapPage() {
     <div className="max-w-3xl">
       <span className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-2 text-sm font-semibold text-[#15803d]"><Leaf size={17} /> Пробный набор</span>
       <h1 className="mt-5 text-4xl font-medium tracking-tight sm:text-6xl">FODMAP</h1>
-      <p className="mt-5 text-lg leading-8 text-gray-600">Выберите готовый день или соберите свой из дополнительных блюд. Все закладки на двоих, КБЖУ — на одного человека. Ориентир дня для Маши: 1300–1350 ккал; Максим дополняет свою порцию отдельно.</p>
+      <p className="mt-5 text-lg leading-8 text-gray-600">Выберите готовый день или соберите свой из дополнительных блюд. Все закладки на двоих. В рецептах КБЖУ указаны на 100 г; итог дня — по запланированным количествам для одного человека. Ориентир дня для Маши: 1300–1350 ккал; Максим дополняет свою порцию отдельно.</p>
       <div className="mt-5 flex flex-wrap gap-3 text-sm font-medium text-gray-600"><span className="inline-flex items-center gap-2"><Users size={17} /> 2 человека</span><span>TM6 + духовка + плита</span><span>Яйца варим отдельно</span></div>
     </div>
 

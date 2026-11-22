@@ -55,7 +55,9 @@ for (const recipe of recipes) {
     }
     ['kcal', 'protein', 'fat', 'carbs'].forEach((key, i) => {
       if (!Number.isFinite(recipe.nutrition?.[key]) || Math.abs(recipe.nutrition[key] - sums[i]) > (i === 0 ? 1 : 0.2)) errors.push(`FODMAP: КБЖУ не сходятся с ингредиентами: ${recipe.id}/${key}`);
+      if (!Number.isFinite(recipe.nutritionTotal?.[key]) || Math.abs(recipe.nutritionTotal[key] - sums[i] * recipe.servings) > 0.01) errors.push(`FODMAP: суммарные КБЖУ не сходятся: ${recipe.id}/${key}`);
     });
+    if (!Number.isFinite(recipe.estimatedYieldGrams) || recipe.estimatedYieldGrams <= 0) errors.push(`Нет ориентировочного выхода: ${recipe.id}`);
   }
 }
 
@@ -69,7 +71,7 @@ for (const menu of ['document', 'variety']) {
     if (kcal < 1300 || kcal > 1350) errors.push(`День вне ориентира: ${menu}/${day} = ${kcal}`);
   }
 }
-if (recipes.filter((recipe) => recipe.menu === 'extras').length !== 6) errors.push('Ожидается 6 дополнительных рецептов');
+if (recipes.filter((recipe) => recipe.menu === 'extras').length !== 7) errors.push('Ожидается 7 дополнительных рецептов');
 
 if (errors.length > 0) {
   console.error(errors.map((error) => `- ${error}`).join('\n'));
