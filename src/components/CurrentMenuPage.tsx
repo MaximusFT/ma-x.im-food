@@ -10,7 +10,7 @@ import { RecipeModal } from './RecipeModal';
 import { recipes } from '@/data/recipes';
 
 const byId = new Map(currentMenuRecipes.map((recipe) => [recipe.id, recipe]));
-const extraRecipes = [...currentMenuExtraRecipes, ...recipes.filter((recipe) => recipe.collection === 'home')];
+const extraRecipes = [...recipes.filter((recipe) => recipe.id === 'fodmap-extra-salmon-cream-soup'), ...currentMenuExtraRecipes, ...recipes.filter((recipe) => recipe.collection === 'home')];
 
 export function CurrentMenuPage() {
   const { basket, addRecipe } = useBasket();

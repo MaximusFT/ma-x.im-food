@@ -12,7 +12,7 @@ const collection = recipes.filter((recipe) => recipe.collection === 'fodmap');
 const menus = [
   { id: 'document', title: 'Меню из файла', detail: '7 дней · 4 приёма пищи' },
   { id: 'variety', title: 'Разнообразное меню', detail: '7 дней · супы, котлеты, паста' },
-  { id: 'extras', title: 'Дополнительные блюда', detail: 'Хлеб, пудинг и соусы' },
+  { id: 'extras', title: 'Дополнительные блюда', detail: 'Суп, хлеб, пудинги и соусы' },
 ] as const;
 
 function nutritionSummary(dayRecipes: Recipe[]) {

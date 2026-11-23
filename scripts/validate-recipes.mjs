@@ -71,7 +71,7 @@ for (const menu of ['document', 'variety']) {
     if (kcal < 1300 || kcal > 1350) errors.push(`День вне ориентира: ${menu}/${day} = ${kcal}`);
   }
 }
-if (recipes.filter((recipe) => recipe.menu === 'extras').length !== 7) errors.push('Ожидается 7 дополнительных рецептов');
+if (recipes.filter((recipe) => recipe.menu === 'extras').length !== 8) errors.push('Ожидается 8 дополнительных рецептов');
 
 if (errors.length > 0) {
   console.error(errors.map((error) => `- ${error}`).join('\n'));
