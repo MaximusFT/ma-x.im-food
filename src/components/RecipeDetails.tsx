@@ -29,11 +29,11 @@ function RecipeDetailsContent({ recipe }: { recipe: Recipe }) {
   return (
     <div className="mx-auto max-w-7xl px-5 py-8 lg:px-8 lg:py-14">
       <Link
-        href={recipe.collection === 'fodmap' ? '/fodmap' : recipe.collection === 'home' ? '/current-menu#additional-dishes' : '/'}
+        href={recipe.collection === 'dietitians' ? '/dietitians' : recipe.collection === 'fodmap' ? '/fodmap' : recipe.collection === 'home' ? '/current-menu#additional-dishes' : '/'}
         className="inline-flex min-h-11 items-center gap-2 rounded-xl text-sm font-semibold text-gray-600 transition hover:text-gray-950"
       >
         <ArrowLeft size={18} />
-        {recipe.collection === 'fodmap' ? 'Раздел FODMAP' : recipe.collection === 'home' ? 'Дополнительные блюда' : 'Все рецепты'}
+        {recipe.collection === 'dietitians' ? 'От диетологов' : recipe.collection === 'fodmap' ? 'Раздел FODMAP' : recipe.collection === 'home' ? 'Дополнительные блюда' : 'Все рецепты'}
       </Link>
 
       <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1.45fr)_minmax(21rem,0.7fr)] lg:gap-14">

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "generate:recipes": "node scripts/generate-recipes.mjs",
-    "validate:data": "node scripts/validate-recipes.mjs && node scripts/validate-shopping.mjs && node scripts/validate-food-table.mjs && node scripts/validate-nutrition.mjs && node scripts/validate-scaling.mjs",
+    "validate:data": "node scripts/validate-recipes.mjs && node scripts/validate-shopping.mjs && node scripts/validate-food-table.mjs && node scripts/validate-nutrition.mjs && node scripts/validate-scaling.mjs && node scripts/validate-dietitians.mjs",
     "predev": "npm run generate:recipes",
     "dev": "next dev",
     "prebuild": "npm run generate:recipes && npm run validate:data",

@@ -44,7 +44,7 @@ export type Recipe = {
   nutritionNote?: string;
   status: 'approved' | 'testing';
   source: string;
-  collection?: 'fodmap' | 'home';
+  collection?: 'fodmap' | 'home' | 'dietitians';
   menu?: 'document' | 'variety' | 'extras';
   meal?: string;
   // Reference serving values retained only for planned daily totals.

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket, Leaf, TableProperties } from 'lucide-react';
+import { BookOpen, CalendarDays, CheckSquare2, ClipboardList, ShoppingBasket, Leaf, TableProperties, Users } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { BasketProvider, useBasket } from './BasketProvider';
 
@@ -10,27 +10,29 @@ const navigation = [
   { href: '/current-menu', label: 'Меню', icon: ClipboardList },
   { href: '/days', label: 'Дни', icon: CalendarDays },
   { href: '/fodmap', label: 'FODMAP', icon: Leaf },
+  { href: '/dietitians', label: 'От диетологов', icon: Users },
   { href: '/food-table', label: 'Таблица', icon: TableProperties },
   { href: '/basket', label: 'Корзина', icon: ShoppingBasket },
   { href: '/shopping', label: 'Покупки', icon: CheckSquare2 },
 ];
-const mobileNavigation = navigation.filter((item) => item.href !== '/food-table');
+const mobileNavigation = navigation.filter((item) => item.href !== '/food-table' && item.href !== '/dietitians');
 
 function NavigationShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const { basket } = useBasket();
 
   return (
-    <div className="min-h-screen pb-24 lg:pb-0">
+    <div className="min-h-screen pb-24 xl:pb-0">
       <header className="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur-xl">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-3 sm:px-5 lg:px-8">
           <Link href="/" className="flex min-h-11 items-center gap-3" aria-label="На главную страницу рецептов">
             <span className="text-lg font-bold tracking-tight">ma-x.im</span>
-            <span className="h-5 w-px bg-gray-300" aria-hidden="true" />
-            <span className="text-sm font-semibold text-[#15803d]">рецепты</span>
+            <span className="hidden h-5 w-px bg-gray-300 sm:inline" aria-hidden="true" />
+            <span className="hidden text-sm font-semibold text-[#15803d] sm:inline">рецепты</span>
           </Link>
-          <Link href="/food-table" className={`inline-flex min-h-11 items-center gap-2 rounded-xl px-3 text-sm font-semibold lg:hidden ${pathname === '/food-table' ? 'bg-gray-950 text-white' : 'bg-green-50 text-[#15803d]'}`}><TableProperties size={18} />Таблица</Link>
-          <nav className="hidden items-center gap-2 lg:flex" aria-label="Основная навигация">
+          <div className="flex items-center gap-1 xl:hidden"><Link href="/dietitians" className={`inline-flex min-h-11 items-center gap-1 rounded-xl px-2 text-sm font-semibold ${pathname === '/dietitians' ? 'bg-gray-950 text-white' : 'text-[#15803d] bg-green-50'}`}><Users size={17} />Диетологи</Link>
+          <Link href="/food-table" className={`inline-flex min-h-11 items-center gap-2 rounded-xl px-3 text-sm font-semibold xl:hidden ${pathname === '/food-table' ? 'bg-gray-950 text-white' : 'bg-green-50 text-[#15803d]'}`}><TableProperties size={18} />Таблица</Link></div>
+          <nav className="hidden items-center gap-2 xl:flex" aria-label="Основная навигация">
             {navigation.map((item) => {
               const active = item.href === '/' ? pathname === '/' || pathname.startsWith('/recipes/') : pathname === item.href;
               const Icon = item.icon;
@@ -59,7 +61,7 @@ function NavigationShell({ children }: { children: React.ReactNode }) {
       <main>{children}</main>
 
       <nav
-        className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 px-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-2 backdrop-blur-xl lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 px-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-2 backdrop-blur-xl xl:hidden"
         aria-label="Мобильная навигация"
       >
         <div className="mx-auto grid max-w-lg grid-cols-6">
